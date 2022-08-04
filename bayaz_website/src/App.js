@@ -2,13 +2,13 @@ import './App.css';
 
 import React from "react";
 import Layout from "./layout/Layout";
-import Shows from "./components/Shows";
+// import Shows from "./components/Shows";
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Shows />
+        {/* <Shows /> */}
       </Layout>
     </div>
   );
