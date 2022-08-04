@@ -6,7 +6,6 @@ import Shows from "./components/Shows";
 import Contact from './components/Contact';
 import Gallery from './components/Gallery';
 import Merch from './components/Merch';
-import Shows from './components/Shows';
 import Video from './components/Video';
 
 function App() {
