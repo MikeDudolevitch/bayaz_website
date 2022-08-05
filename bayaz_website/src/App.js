@@ -7,16 +7,18 @@ import Contact from './components/Contact';
 import Gallery from './components/Gallery';
 import Merch from './components/Merch';
 import Video from './components/Video';
+import Music from './components/Music'
 
 function App() {
   return (
     <div className="App">
       <Layout>
-          <Shows />
-          <Contact />
+          <Music />
           <Gallery />
-          <Merch />
           <Video />
+          <Shows />
+          <Merch />
+          <Contact />
       </Layout>
     </div>
   );

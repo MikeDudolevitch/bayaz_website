@@ -52,7 +52,7 @@ function Header() {
             removeTransition();
           }}
         >
-          <h1 className="logo">home</h1>
+          <h1 className="logo">Home</h1>
         </Link>
         <div className="nav-icon-parent">
           <div className={`nav-icon ${showMenu}`} onClick={menuClick}>
@@ -61,10 +61,10 @@ function Header() {
             <div></div>
           </div>
         </div>
-
+{/* Music / Gallery / Videos / Shows / Merch / Contact / Press Kit */}
         <nav className={`${showMenu} ${transition}`}>
           <Link
-            to="about"
+            to="music"
             className="nav-link"
             activeClass="active"
             spy={true}
@@ -72,10 +72,10 @@ function Header() {
             duration={500}
             onClick={menuClick}
           >
-            about
+            Music
           </Link>
           <Link
-            to="skills"
+            to="gallery"
             className="nav-link"
             activeClass="active"
             spy={true}
@@ -83,10 +83,10 @@ function Header() {
             duration={500}
             onClick={menuClick}
           >
-            skills
+            Gallery
           </Link>
           <Link
-            to="projects"
+            to="video"
             className="nav-link"
             activeClass="active"
             spy={true}
@@ -94,7 +94,29 @@ function Header() {
             duration={500}
             onClick={menuClick}
           >
-            projects
+            Videos
+          </Link>
+          <Link
+            to="shows"
+            className="nav-link"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={menuClick}
+          >
+            Shows
+          </Link>
+          <Link
+            to="merch"
+            className="nav-link"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={menuClick}
+          >
+            Merch
           </Link>
           <Link
             to="contact"
@@ -105,7 +127,7 @@ function Header() {
             duration={500}
             onClick={menuClick}
           >
-            contact
+            Contact
           </Link>
         </nav>
       </div>

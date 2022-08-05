@@ -3,7 +3,7 @@ import React from 'react'
 
 const Merch = () => {
   return (
-    <div>Merch</div>
+    <div className="merch">Merch</div>
   )
 }
 
