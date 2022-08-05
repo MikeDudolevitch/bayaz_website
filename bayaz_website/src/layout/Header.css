@@ -19,15 +19,16 @@ header {
     align-items: center;
     height: 100%;
     width: 100%;
-    background: black;
+    background: grey;
   }
   .logo {
     width: 150px;
+    height: 50px;
     cursor: pointer;
     font-size: 30px;
     font-weight: 500;
     white-space: nowrap;
-    margin-left: 20px;
+    margin-left: 20vw;
   }
   
   nav {
