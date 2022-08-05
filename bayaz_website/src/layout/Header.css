@@ -23,13 +23,13 @@ header {
     background-img: url('../../public/pics/background.png');
   }
   .logo {
-    width: 150px;
-    height: 50px;
+    width: 15vw;
+    height: 10vh;
     cursor: pointer;
     font-size: 30px;
     font-weight: 500;
     white-space: nowrap;
-    margin-left: 30vw;
+    margin-left: 40vw;
   }
   
   nav {
