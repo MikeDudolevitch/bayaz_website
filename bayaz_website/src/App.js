@@ -9,6 +9,7 @@ import Gallery from './components/Gallery';
 import Merch from './components/Merch';
 import Video from './components/Video';
 import Music from './components/Music'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

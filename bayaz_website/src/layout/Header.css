@@ -15,7 +15,7 @@ header {
     left: 0;
   }
 
-  .logo-parent {
+  .logoParent {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +45,7 @@ header {
     margin-right: 20px;
   }
   
-  .nav-link {
+  .navLink {
     font-family: 'Oswald';
     outline: none;
     padding: 2px 10px;
@@ -53,31 +53,35 @@ header {
     border: 2px solid transparent;
     font-size: 18px;
     font-weight: 500;
+    text-decoration: none;
+    color: var(--nav-color);
   }
   
-  .active-logo {
+  .activeLogo {
     border: none;
   }
   
-  .nav-icon {
+  .navIcon {
     display: none;
   }
   
   .logo:hover,
-  .nav-link:hover,
+  .navLink:hover,
   .active,
-  .active-logo {
+  .activeLogo {
     color: var(--nav-select);
     text-shadow: 2px 2px 2px var(red);
+    text-decoration: none;
   }
   
   .active,
-  .nav-icon {
+  .navIcon {
     border: var(--nav-hover);
+    text-decoration: none;
   }
   
   @media screen and (max-width: 500px) {
-    .nav-icon > div {
+    .navIcon > div {
       display: block;
       background-color: var(--nav-hover);
       border-radius: 3px;
@@ -87,11 +91,11 @@ header {
       transition: transform 0.3s ease-in-out;
     }
   
-    .nav-icon-parent {
+    .navIconParent {
       width: 20%;
     }
   
-    .nav-icon {
+    .navIcon {
       display: block;
       height: 34px;
       width: 44px;
@@ -114,7 +118,7 @@ header {
       margin: 15px 10px 15px 20px;
     }
   
-    .logo-parent {
+    .logoParent {
       flex-wrap: wrap;
     }
   
@@ -130,7 +134,7 @@ header {
       z-index: -1;
     }
   
-    .nav-link {
+    .navLink {
       display: block;
     }
   
@@ -144,15 +148,15 @@ header {
       transform: translateY(0);
     }
   
-    .nav-icon.visible > :first-child {
+    .navIcon.visible > :first-child {
       transform: translateY(5px) rotate(45deg);
     }
   
-    .nav-icon.visible > :last-child {
+    .navIcon.visible > :last-child {
       transform: translateY(-5px) rotate(-45deg);
     }
   
-    .nav-icon.visible > :nth-child(2) {
+    .navIcon.visible > :nth-child(2) {
       transform: scale(0);
     }
   

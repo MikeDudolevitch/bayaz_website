@@ -40,10 +40,10 @@ function Header() {
 
   return (
     <header>
-      <div className="logo-parent">
+      <div className="logoParent">
         <Link
           to="master"
-          activeClass="active-logo"
+          activeClass="activeLogo"
           spy={true}
           smooth={true}
           duration={500}
@@ -54,8 +54,8 @@ function Header() {
         >
           <img src="./pics/BAYAZtextonlycream.png" alt="bayaz logo" className="logo"/>
         </Link>
-        <div className="nav-icon-parent">
-          <div className={`nav-icon ${showMenu}`} onClick={menuClick}>
+        <div className="navIconParent">
+          <div className={`navIcon ${showMenu}`} onClick={menuClick}>
             <div></div>
             <div></div>
             <div></div>
@@ -65,7 +65,7 @@ function Header() {
         <nav className={`${showMenu} ${transition}`}>
           <Link
             to="gallery"
-            className="nav-link"
+            className="navLink"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -76,7 +76,7 @@ function Header() {
           </Link>
           <Link
             to="music"
-            className="nav-link"
+            className="navLink"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -87,7 +87,7 @@ function Header() {
           </Link>
           <Link
             to="video"
-            className="nav-link"
+            className="navLink"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -98,7 +98,7 @@ function Header() {
           </Link>
           <Link
             to="shows"
-            className="nav-link"
+            className="navLink"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -109,7 +109,7 @@ function Header() {
           </Link>
           <Link
             to="merch"
-            className="nav-link"
+            className="navLink"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -120,7 +120,7 @@ function Header() {
           </Link>
           <Link
             to="contact"
-            className="nav-link"
+            className="navLink"
             activeClass="active"
             spy={true}
             smooth={true}

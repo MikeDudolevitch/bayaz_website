@@ -1,6 +1,6 @@
 // import React, { useState } from 'react';
 // import Carousel from 'react-bootstrap/Carousel';
-// // import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // const ControlledCarousel = () => {
