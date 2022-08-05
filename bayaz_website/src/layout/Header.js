@@ -52,7 +52,7 @@ function Header() {
             removeTransition();
           }}
         >
-          <img src="./pics/BAYAZtextonly.png" alt="bayaz logo" className="logo"/>
+          <img src="./pics/BAYAZtextonlycream.png" alt="bayaz logo" className="logo"/>
         </Link>
         <div className="nav-icon-parent">
           <div className={`nav-icon ${showMenu}`} onClick={menuClick}>
