@@ -9,6 +9,7 @@ header {
     user-select: none;
     height: 80px;
     color: var(--nav-color);
+    text-shadow: 2px 2px 2px #C96D03;
     z-index: 1;
     top: 0;
     left: 0;
@@ -61,12 +62,12 @@ header {
   .nav-link:hover,
   .active,
   .active-logo {
-    color: var(--nav-hover);
+    color: var(--nav-select);
   }
   
   .active,
   .nav-icon {
-    border: var(--nav-hover);
+    border: var(--nav-select);
   }
   
   @media screen and (max-width: 500px) {

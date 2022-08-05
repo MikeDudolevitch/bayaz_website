@@ -5,6 +5,7 @@ html, body {
 }
 
 :root {
-    --nav-color: #FFF9eb;
-    --nav-hover: #E0514C;
+    --nav-color: #FCF3CB;
+    --nav-select: #E0514C;
+    --nav-hover: red;
 }
