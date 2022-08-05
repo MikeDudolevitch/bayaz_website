@@ -3,10 +3,11 @@
 //-Include link to press kit here as well
 import React from 'react'
 import './Contact.css'
+import './paddingTop.css'
 
 const Contact = () => {
   return (
-    <div className="contact">Contact</div>
+    <div className="contact paddingTop">Contact</div>
   )
 }
 
