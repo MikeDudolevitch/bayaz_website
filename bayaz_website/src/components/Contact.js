@@ -2,7 +2,6 @@
 //First name / last name / email / message all required
 //-Include link to press kit here as well
 import React from 'react'
-import './Contact.css'
 import './paddingTop.css'
 
 const Contact = () => {

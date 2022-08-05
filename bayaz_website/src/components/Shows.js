@@ -1,6 +1,5 @@
 //a Formatted <ul> that I can update - can also pull from Songkick /Bandsintown
 import React from 'react'
-import './Shows.css'
 import './paddingTop.css'
 
 const Shows = () => {

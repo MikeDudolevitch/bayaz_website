@@ -23,8 +23,9 @@ header {
     background-img: url('../../public/pics/background.png');
   }
   .logo {
-    width: 150px;
-    height: 50px;
+    padding-top: 15px;
+    width: 125px;
+    height: 125px;
     cursor: pointer;
     font-size: 30px;
     font-weight: 500;

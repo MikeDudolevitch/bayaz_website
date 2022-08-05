@@ -1,6 +1,5 @@
 //Use Bandcamp.com Widget 
 import React from 'react'
-import './Music.css'
 import './paddingTop.css'
 
 const Music = () => {
