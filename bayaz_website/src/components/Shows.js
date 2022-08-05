@@ -1,10 +1,11 @@
 //a Formatted <ul> that I can update - can also pull from Songkick /Bandsintown
 import React from 'react'
-import './paddingTop.css'
+import './Component.css'
+import './Shows.css'
 
 const Shows = () => {
   return (
-    <div className="shows paddingTop">Shows</div>
+    <div className="shows paddingTop borderBox">Shows</div>
   )
 }
 

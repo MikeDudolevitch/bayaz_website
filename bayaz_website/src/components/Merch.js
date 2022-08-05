@@ -1,11 +1,11 @@
 //Bandcamp.com Merch section integration
 import React from 'react'
-import './paddingTop.css'
+import './Component.css'
 import './Merch.css'
 
 const Merch = () => {
   return (
-    <div className="merch paddingTop">Merch</div>
+    <div className="merch paddingTop borderBox">Merch</div>
   )
 }
 

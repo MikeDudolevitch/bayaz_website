@@ -64,17 +64,6 @@ function Header() {
 {/* Music / Gallery / Videos / Shows / Merch / Contact / Press Kit */}
         <nav className={`${showMenu} ${transition}`}>
           <Link
-            to="music"
-            className="nav-link"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}
-            onClick={menuClick}
-          >
-            Music
-          </Link>
-          <Link
             to="gallery"
             className="nav-link"
             activeClass="active"
@@ -84,6 +73,17 @@ function Header() {
             onClick={menuClick}
           >
             Gallery
+          </Link>
+          <Link
+            to="music"
+            className="nav-link"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            onClick={menuClick}
+          >
+            Music
           </Link>
           <Link
             to="video"

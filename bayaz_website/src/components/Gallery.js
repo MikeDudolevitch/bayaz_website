@@ -2,12 +2,12 @@
 import React from 'react'
 import Carousel from './Carousel'
 import './Gallery.css'
-import './paddingTop.css'
+import './Component.css'
 
 
 const Gallery = () => {
   return (
-    <div className="gallery paddingTop">
+    <div className="gallery paddingTop borderBox">
       <Carousel/>
     </div>
   )

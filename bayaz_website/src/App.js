@@ -14,8 +14,8 @@ function App() {
   return (
     <div className="App">
       <Layout>
-          <Music />
           <Gallery />
+          <Music />
           <Video />
           <Shows />
           <Merch />
