@@ -9,7 +9,7 @@ header {
     user-select: none;
     height: 80px;
     color: var(--nav-color);
-    text-shadow: 2px 2px 2px #C96D03;
+    text-shadow: 2px 2px 4px #C96D03;
     z-index: 1;
     top: 0;
     left: 0;
@@ -29,7 +29,7 @@ header {
     font-size: 30px;
     font-weight: 500;
     white-space: nowrap;
-    margin-left: -5px auto -5px 30vw;
+    margin-left: 30vw;
   }
   
   nav {
@@ -63,11 +63,12 @@ header {
   .active,
   .active-logo {
     color: var(--nav-select);
+    text-shadow: 2px 2px 2px var(red);
   }
   
   .active,
   .nav-icon {
-    border: var(--nav-select);
+    border: var(--nav-hover);
   }
   
   @media screen and (max-width: 500px) {
