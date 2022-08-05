@@ -79,59 +79,82 @@ header {
   @media screen and (max-width: 500px) {
     .navIcon > div {
       display: block;
-      background-color: var(--nav-hover);
-      border-radius: 3px;
+      background-color: var(--nav-hover);     
       content: "";
-      height: 2px;
+      height: 3px;
       margin: 5px 0;
       transition: transform 0.3s ease-in-out;
     }
-  
-    .navIconParent {
-      width: 20%;
+    .navParent {
+      display: block;
+      width: 300px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding-right: 20px;
+      border: thin solid red;
     }
+    /* .navIconParent {
+      width: 100px;
+      display: block; 
+      position: absolute;
+      width: 200px;
+      top: 0;
+      border: thin solid red;
+    } */
   
     .navIcon {
       display: block;
-      height: 34px;
+      /* height: 35px; */
+      margin-left: auto;
       width: 44px;
-      border-radius: 10px;
-      padding: 2px 5px 2px 5px;
+      border: thin solid red;
+      border-radius: 5px;
+      padding: 2px 5px;
       cursor: pointer;
+      /* z-index: 4; */
     }
   
     header {
-      flex-direction: row;
-      justify-content: flex-start;
-      height: 70px;
+      /* flex-direction: row; */
+      /* justify-content: flex-start; */
+      /* height: 80px; */
+      border: thin solid red;
+
     }
     .logo {
-      width: 80%;
-      cursor: pointer;
-      font-size: 30px;
-      font-weight: 500;
-      white-space: nowrap;
-      margin: 15px 10px 15px 20px;
+      /* width: 100px; */
+      /* cursor: pointer; */
+      /* font-size: 20px; */
+      /* font-weight: 500; */
+      /* white-space: nowrap; */
+      /* margin: 0px 10px; */
+      /* border: thin solid red; */
     }
   
     .logoParent {
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
+      /* border: thin solid red; */
     }
   
     nav {
       visibility: collapse;
       transform: translateY(-100%);
-      top: 80px;
+      top: 10px;
       right: 0px;
       margin: 0;
       width: 100%;
       padding: 4px 40px 8px;
-      background-color: black;
-      z-index: -1;
+      /* background-color: black; */
+      z-index: 3;
+
+      border: thin solid red;
     }
   
     .navLink {
       display: block;
+      border: thin solid red;
+      text-align: end;
     }
   
     nav.transition {

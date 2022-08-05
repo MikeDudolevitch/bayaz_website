@@ -54,13 +54,14 @@ function Header() {
         >
           <img src="./pics/BAYAZtextonlycream.png" alt="bayaz logo" className="logo"/>
         </Link>
-        <div className="navIconParent">
-          <div className={`navIcon ${showMenu}`} onClick={menuClick}>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-        </div>
+        <div className="navParent">
+          {/* <div className="navIconParent"> */}
+            <div className={`navIcon ${showMenu}`} onClick={menuClick}>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          {/* </div> */}
 {/* Music / Gallery / Videos / Shows / Merch / Contact / Press Kit */}
         <nav className={`${showMenu} ${transition}`}>
           <Link
@@ -130,6 +131,7 @@ function Header() {
             Contact
           </Link>
         </nav>
+        </div>
       </div>
     </header>
   );
