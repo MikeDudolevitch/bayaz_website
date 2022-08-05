@@ -8,7 +8,7 @@ header {
     width: 100vw;
     user-select: none;
     height: 80px;
-    color: white;
+    color: var(--nav-color);
     z-index: 1;
     top: 0;
     left: 0;
@@ -19,7 +19,7 @@ header {
     align-items: center;
     height: 100%;
     width: 100%;
-    background: grey;
+    background-img: url('../../public/pics/background.png');
   }
   .logo {
     width: 150px;
@@ -28,7 +28,7 @@ header {
     font-size: 30px;
     font-weight: 500;
     white-space: nowrap;
-    margin-left: 20vw;
+    margin-left: -5px auto -5px 30vw;
   }
   
   nav {
@@ -40,6 +40,7 @@ header {
   }
   
   .nav-link {
+    font-family: 'Oswald';
     outline: none;
     padding: 2px 10px;
     border-radius: 15px;
@@ -60,18 +61,18 @@ header {
   .nav-link:hover,
   .active,
   .active-logo {
-    color: red;
+    color: var(--nav-hover);
   }
   
   .active,
   .nav-icon {
-    border: red;
+    border: var(--nav-hover);
   }
   
   @media screen and (max-width: 500px) {
     .nav-icon > div {
       display: block;
-      background-color: #00a6ff;
+      background-color: var(--nav-hover);
       border-radius: 3px;
       content: "";
       height: 2px;

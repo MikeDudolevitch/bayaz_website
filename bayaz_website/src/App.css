@@ -4,3 +4,7 @@ html, body {
     background-image: url('../public/pics/background.png');
 }
 
+:root {
+    --nav-color: #FFF9eb;
+    --nav-hover: #E0514C;
+}
