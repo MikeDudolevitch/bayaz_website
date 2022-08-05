@@ -6,7 +6,8 @@ import Contact from './components/Contact';
 import Gallery from './components/Gallery';
 import Merch from './components/Merch';
 import Video from './components/Video';
-import Music from './components/Music'
+import Music from './components/Music';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Shows />
           <Merch />
           <Contact />
+          <Footer />
       </Layout>
     </div>
   );
