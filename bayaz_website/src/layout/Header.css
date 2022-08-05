@@ -21,15 +21,11 @@ header {
     align-items: center;
     height: 100%;
     width: 100%;
-    /* background-image: url('../../public/pics/background.png'); */
   }
   
   .logo {
     padding-top: 15px;
-    width: 125px;
-    height: 125px;
-    width: 15vw;
-    height: 10vh;
+    height: 150px;
     cursor: pointer;
     font-size: 30px;
     font-weight: 500;
