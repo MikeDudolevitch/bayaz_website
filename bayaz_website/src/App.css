@@ -10,3 +10,17 @@ html, body {
     --nav-hover: red;
     --text-shadow: #C96D03;
 }
+
+.page-wrapper {
+    padding: 5px;
+}
+
+.section-title {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    text-align: left;
+    font-family: "Oswald";
+    color: var(--nav-color);
+    text-shadow: 3px 3px 3px var(--text-shadow);
+    text-size-adjust: auto;
+}
