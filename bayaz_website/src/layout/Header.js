@@ -40,9 +40,8 @@ function Header() {
 
   return (
     <header>
-      <div className="logoParent">
         <Link
-          to="master"
+          to="gallery"
           activeClass="activeLogo"
           spy={true}
           smooth={true}
@@ -55,13 +54,11 @@ function Header() {
           <img src="./pics/BAYAZtextonlycream.png" alt="bayaz logo" className="logo"/>
         </Link>
         <div className="navParent">
-          {/* <div className="navIconParent"> */}
             <div className={`navIcon ${showMenu}`} onClick={menuClick}>
               <div></div>
               <div></div>
               <div></div>
             </div>
-          {/* </div> */}
 {/* Music / Gallery / Videos / Shows / Merch / Contact / Press Kit */}
         <nav className={`${showMenu} ${transition}`}>
           <Link
@@ -132,7 +129,6 @@ function Header() {
           </Link>
         </nav>
         </div>
-      </div>
     </header>
   );
 }

@@ -14,14 +14,6 @@ header {
     top: 0;
     left: 0;
   }
-
-  .logoParent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-  }
   
   .logo {
     padding-top: 15px;
@@ -87,79 +79,54 @@ header {
     }
     .navParent {
       display: block;
-      width: 300px;
+      width: 100vw;
       position: absolute;
       right: 0;
       top: 0;
       padding-right: 20px;
-      border: thin solid red;
     }
-    /* .navIconParent {
-      width: 100px;
-      display: block; 
-      position: absolute;
-      width: 200px;
-      top: 0;
-      border: thin solid red;
-    } */
   
     .navIcon {
       display: block;
-      /* height: 35px; */
+      position: relative;
+      top: 20px;
+      right: 20px;
       margin-left: auto;
       width: 44px;
       border: thin solid red;
       border-radius: 5px;
       padding: 2px 5px;
       cursor: pointer;
-      /* z-index: 4; */
+      z-index: 4;
     }
   
-    header {
-      /* flex-direction: row; */
-      /* justify-content: flex-start; */
-      /* height: 80px; */
-      border: thin solid red;
-
-    }
     .logo {
-      /* width: 100px; */
-      /* cursor: pointer; */
-      /* font-size: 20px; */
-      /* font-weight: 500; */
-      /* white-space: nowrap; */
-      /* margin: 0px 10px; */
-      /* border: thin solid red; */
-    }
-  
-    .logoParent {
-      /* flex-wrap: wrap; */
-      /* border: thin solid red; */
+      margin-left: 100px;
     }
   
     nav {
+      position: absolute;
       visibility: collapse;
       transform: translateY(-100%);
-      top: 10px;
+      top: 0px;
       right: 0px;
       margin: 0;
       width: 100%;
-      padding: 4px 40px 8px;
-      /* background-color: black; */
+      padding: 80px 100px 8px;
+      background: rgba(0,0, 0, .5);
       z-index: 3;
-
-      border: thin solid red;
     }
   
     .navLink {
       display: block;
-      border: thin solid red;
-      text-align: end;
+      position: relative;
+      text-align: right;
+      margin: 0 0 0 auto;
+      z-index: 100;
     }
   
     nav.transition {
-      transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out,
-        transform 0.3s ease-in-out;
+      transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     }
   
     nav.visible {
@@ -179,7 +146,7 @@ header {
       transform: scale(0);
     }
   
-    /* the below code is for fading in the drop down menu */
+    /* the below code is for fading in the drop down menu. before attempting to use, switch classnames to camelcase */
   
     /* header {
       flex-direction: row;
