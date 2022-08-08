@@ -8,11 +8,13 @@ import './Component.css'
 const Gallery = () => {
   return (
     <div id="gallery" className='page-wrapper'>
-      <div className="gallery paddingTop borderBox">
+      <div className="paddingTop borderBox">
+        <h1 className="section-title">Gallery</h1>
         <Carousel/>
       </div>
     </div>
   )
 }
+      
 
 export default Gallery

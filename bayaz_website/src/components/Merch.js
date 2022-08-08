@@ -6,7 +6,9 @@ import './Merch.css'
 const Merch = () => {
   return (
     <div id="merch" className='page-wrapper'>
-      <div className="merch paddingTop borderBox">Merch</div>
+      <div className="paddingTop borderBox">
+        <h1 className="section-title">Merch</h1>
+      </div>
     </div>
   )
 }

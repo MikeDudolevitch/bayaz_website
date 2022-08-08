@@ -6,7 +6,9 @@ import './Video.css'
 const Video = () => {
   return (
     <div id='video' className='page-wrapper'>
-      <div className="video paddingTop borderBox">Video</div>
+      <div className="paddingTop borderBox">
+        <h1 className="section-title">Video</h1>
+      </div>
     </div>
   )
 }
