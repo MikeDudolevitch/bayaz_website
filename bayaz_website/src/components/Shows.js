@@ -5,8 +5,8 @@ import './Shows.css'
 
 const Shows = () => {
   return (
-    <div id="shows" className='page-wrapper'>
-      <div className="paddingTop borderBox">
+    <div id="shows" className='page-wrapper component'>
+      <div className="">
         <h1 className="section-title">Shows</h1>
       </div>
     </div>

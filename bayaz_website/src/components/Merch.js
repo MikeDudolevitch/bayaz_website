@@ -5,8 +5,8 @@ import './Merch.css'
 
 const Merch = () => {
   return (
-    <div id="merch" className='page-wrapper'>
-      <div className="paddingTop borderBox">
+    <div id="merch" className='page-wrapper component'>
+      <div className="">
         <h1 className="section-title">Merch</h1>
       </div>
     </div>

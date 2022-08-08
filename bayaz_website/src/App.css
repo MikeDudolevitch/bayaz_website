@@ -16,13 +16,8 @@ html, body {
     border: 5px 5px red;
 }
 
-.section-title {
-    margin-bottom: 4vh;
-    margin-left: 5vw;
-    text-align: left;
-    font-family: "Oswald";
-    color: var(--nav-color);
-    text-shadow: 3px 3px 3px var(--text-shadow);
-    text-size-adjust: auto;
-    font-size: 8vh;
+
+@media screen and (min-width: 501px) {
+    /*desktop size*/
+
 }

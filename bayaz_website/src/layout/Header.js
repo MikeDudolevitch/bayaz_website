@@ -40,6 +40,7 @@ function Header() {
 
   return (
     <header>
+      <div className="logoNav">
         <Link
           to="gallery"
           activeClass="activeLogo"
@@ -128,6 +129,7 @@ function Header() {
             Contact
           </Link>
         </nav>
+        </div>
         </div>
     </header>
   );
