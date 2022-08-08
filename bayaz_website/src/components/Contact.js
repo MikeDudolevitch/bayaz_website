@@ -7,8 +7,8 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div id="contact" className='page-wrapper'>
-      <div className="paddingTop borderBox">
+    <div id="contact" className='page-wrapper component'>
+      <div className="">
         <h1 className="section-title">Contact</h1>
       </div>
     </div>
