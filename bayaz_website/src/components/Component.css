@@ -6,9 +6,10 @@
 }
 
 .component {
-    display: flex;
+    display: block;
+    /* display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     min-height: 100vh;
     padding-top: 80px;
     border: thin solid red;
@@ -18,7 +19,7 @@
     border: thin solid red;
     /* width: 100vh; */
     margin-bottom: 4vh;
-    margin-left: 5vw;
+    margin-left: 15px;
     text-align: left;
     font-family: "Oswald";
     color: var(--nav-color);
