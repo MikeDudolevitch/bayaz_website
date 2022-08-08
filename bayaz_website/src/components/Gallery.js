@@ -7,8 +7,10 @@ import './Component.css'
 
 const Gallery = () => {
   return (
-    <div className="gallery paddingTop borderBox">
-      <Carousel/>
+    <div id="gallery" className='page-wrapper'>
+      <div className="gallery paddingTop borderBox">
+        <Carousel/>
+      </div>
     </div>
   )
 }

@@ -7,7 +7,10 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div className="contact paddingTop borderBox">Contact</div>
+    <div id="contact" className='page-wrapper'>
+      <div className="contact paddingTop borderBox">Contact</div>
+    </div>
+    
   )
 }
 

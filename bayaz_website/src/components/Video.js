@@ -5,7 +5,9 @@ import './Video.css'
 
 const Video = () => {
   return (
-    <div className="video paddingTop borderBox">Video</div>
+    <div id='video' className='page-wrapper'>
+      <div className="video paddingTop borderBox">Video</div>
+    </div>
   )
 }
 

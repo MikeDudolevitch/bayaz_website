@@ -5,7 +5,9 @@ import './Shows.css'
 
 const Shows = () => {
   return (
-    <div className="shows paddingTop borderBox">Shows</div>
+    <div id="shows" className='page-wrapper'>
+      <div className="shows paddingTop borderBox">Shows</div>
+    </div>
   )
 }
 
