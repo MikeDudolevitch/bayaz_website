@@ -2,3 +2,6 @@
     min-height: 100vh;
     /* border: thin solid red; */
 }
+.tourDates {
+    color: var(--nav-color);
+}
