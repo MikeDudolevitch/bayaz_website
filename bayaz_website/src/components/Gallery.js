@@ -8,10 +8,10 @@ import './Component.css'
 const Gallery = () => {
   return (
     <div id="gallery" className='page-wrapper component'>
-      <div className="">
-        <h1 className="section-title">Gallery</h1>
-        <Carousel/>
-      </div>
+      <h1 className="section-title">Gallery</h1>
+        <div id="gallery-container">
+          <Carousel/>
+        </div>
     </div>
   )
 }

@@ -1,8 +1,13 @@
 #shows {
     min-height: 100vh;
+    background-image: url('../../public/pics/bayazpictveye.jpg');
+    background-position: center;
+    background-size: cover;
     /* border: thin solid red; */
 }
-.tourDates {
-    color: var(--nav-color);
-    font-family: "Oswald";
+#widget-container{
+    margin: 5vw 5vw 0 5vw;
+    border: thin solid var(--nav-color);
+    background-color: #373737;
+    opacity: .9;
 }
