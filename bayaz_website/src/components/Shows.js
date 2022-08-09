@@ -12,7 +12,7 @@ function Shows() {
           document.body.removeChild(script);
       }
   }, []);
-  
+
   return (
     <div id="shows" className='page-wrapper component'>
         <div className="tourDates">
