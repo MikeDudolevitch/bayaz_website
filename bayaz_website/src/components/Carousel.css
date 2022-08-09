@@ -11,3 +11,6 @@
     height: 850px;
     object-fit: contain;
 }
+#carousel {
+    z-index: 0;
+}
