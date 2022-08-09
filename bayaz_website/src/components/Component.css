@@ -9,6 +9,7 @@
     display: block;
     min-height: 100vh;
     padding-top: 80px;
+    box-sizing: border-box;
     border: thin solid red;
 }
 

@@ -11,3 +11,6 @@
     object-fit: contain;
     padding-bottom: 30px;
 }
+#carousel {
+    z-index: 0;
+}
