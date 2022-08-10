@@ -4,7 +4,7 @@ import Layout from "./layout/Layout";
 import Shows from "./components/Shows";
 import Contact from './components/Contact';
 import Gallery from './components/Gallery';
-import Merch from './components/Merch';
+import About from './components/About'
 import Video from './components/Video';
 import Music from './components/Music';
 import Footer from './components/Footer';
@@ -18,7 +18,7 @@ function App() {
           <Music />
           <Video />
           <Shows />
-          <Merch />
+          <About />
           <Contact />
           <Footer />
       </Layout>

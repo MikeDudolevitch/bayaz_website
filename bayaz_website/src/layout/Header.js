@@ -107,7 +107,7 @@ function Header() {
             Shows
           </Link>
           <Link
-            to="merch"
+            to="about"
             className="navLink"
             activeClass="active"
             spy={true}
@@ -115,7 +115,7 @@ function Header() {
             duration={500}
             onClick={menuClick}
           >
-            Merch
+            About
           </Link>
           <Link
             to="contact"
