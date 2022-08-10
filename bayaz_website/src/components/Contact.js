@@ -2,11 +2,8 @@
 //First name / last name / email / message all required
 //-Include link to press kit here as well
 import React from 'react'
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+import { Button, Form } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons'
-import './Component.css'
-import './Contact.css'
 import './Component.css'
 import './Contact.css'
 
@@ -39,7 +36,7 @@ const Contact = () => {
     </Form>
     <br>
     </br>
-    <h3 id='merch'><a href='https://thenuclears.bandcamp.com/merch'>Buy a record! Buy a shirt! Buy both- Christmas is right around the corner!</a></h3>
+    <h3 id='merch'><a id="link" href='https://thenuclears.bandcamp.com/merch'>Buy a record! Buy a shirt! Buy both- Christmas is right around the corner!</a></h3>
     {/* Put Social Icons here */}
         <div className = "d-flex justify-content-center socialIconContainer">
           <SocialIcon className='socialIcon' url="https://www.facebook.com/bayazband" />
