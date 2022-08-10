@@ -2,3 +2,13 @@
     min-height: 100vh;
     /* border: thin solid red; */
 }
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: thin solid red;
+}
+
+.youtube {
+    border: thin solid red;
+}
