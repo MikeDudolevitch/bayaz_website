@@ -9,9 +9,7 @@
     background-color: var(--background-grey);
     opacity: .9;
 }
-#about-header {
-    text-align: center;
-}
+
 #about-img {
     float: right;
     padding: 3px;

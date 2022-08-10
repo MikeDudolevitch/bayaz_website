@@ -14,24 +14,28 @@ const Contact = () => {
       <div className="">
         <h1 className="section-title">Contact</h1>
         <Form id='contact-form'>
+          <Form.Text>
+            <h2 className='content-header page-content'>Send Us A Line!</h2>
+            <p className='content-header page-content'>Booking queries, press requests, hate-mail, etc.: This forwards to our band email, so we'll check it and get back to you ASAP!</p>
+          </Form.Text>
           <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label className='form-label'>First Name</Form.Label>
-            <Form.Control className='form-control' type="text" placeholder="First Name" />
+            <Form.Label className='form-label page-content'>First Name</Form.Label>
+            <Form.Control type="text" placeholder="First Name" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label className='form-label'>Last Name</Form.Label>
-            <Form.Control className='form-control' type="text" placeholder="Last Name" />
+            <Form.Label className='form-label page-content'>Last Name</Form.Label>
+            <Form.Control type="text" placeholder="Last Name" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label className='form-label'>Email address</Form.Label>
-              <Form.Control className='form-control' type="email" placeholder="Enter email" />
+            <Form.Label className='form-label page-content'>Email address</Form.Label>
+              <Form.Control type="email" placeholder="Enter email" />
           </Form.Group>
           <Form.Group className="mb-3">
-            <Form.Label className='form-label'>Message</Form.Label>
-            <Form.Control as="textarea" rows={3}  className='form-control' type="textarea" placeholder="Write Your Message" />
+            <Form.Label className='form-label page-content'>Message</Form.Label>
+            <Form.Control as="textarea" rows={3}  type="textarea" placeholder="Write Your Message" />
           </Form.Group>
-          <Button style={{marginRight: 'auto', marginLeft: 'auto', display: 'block', backgroundColor: '#E0514C', color: '#FCF3CB', border: 'thin solid red'}} variant="primary" type="submit">
-            Submit
+          <Button id="form-button" variant="primary" type="submit">
+            Fire Away
           </Button>
     </Form>
     <br>

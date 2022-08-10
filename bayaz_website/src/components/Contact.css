@@ -16,16 +16,19 @@
     text-align: center;
     color: var(--nav-color);
 }
+
 #contact-form {
     margin: 2vh 10vw 2vh 10vw;
     border: thin solid var(--nav-color);
-    padding: 1vw;
+    padding: 2vw;
     font-family: "Oswald";
     background-color: var(--background-grey);
     opacity: .9;
 }
+
 .form-label {
     color: var(--nav-color);
+    text-shadow: 2px 2px 2px var(--nav-hover);
 }
 
 .socialIconContainer {
@@ -42,6 +45,13 @@
     display: inline-block;
 }
 
-.form-control {
-    color: var(--nav-select);
+#form-button {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-color: var(--nav-select);
+    color: var(--nav-color);
+    border: thin solid var(--nav-hover);
+    font-size: 1.1em;
+    text-shadow: 2px 2px 2px var(--text-shadow);
 }
