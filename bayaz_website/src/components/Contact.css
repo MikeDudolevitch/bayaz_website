@@ -10,3 +10,17 @@
 a {
     color: var(--nav-color);
 }
+
+.socialIconContainer {
+    padding-top: 10px;
+}
+
+.socialIcon:hover {
+    transform: translateY(-3px);
+}
+
+.socialIcon {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
