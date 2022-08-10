@@ -8,6 +8,10 @@ const About = () => {
     <div id="about" className='page-wrapper component'>
       <div className="">
         <h1 className="section-title">About</h1>
+          <div id='about-paragraph'>
+            <h2>Bayaz: The Story of Bayaz</h2>
+            <p>Lorem ipsum</p>
+          </div>
       </div>
     </div>
   )

@@ -4,6 +4,12 @@ html, body {
     background-image: url('../public/pics/background.png');
 }
 
+h1, h2, h3, p {
+    color: var(--nav-color);
+    text-shadow: 2px 2px 3px var(--text-shadow);
+    font-family: "Oswald";
+}
+
 :root {
     --nav-color: #FCF3CB;
     --nav-select: #E0514C;

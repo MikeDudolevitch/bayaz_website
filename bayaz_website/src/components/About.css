@@ -2,3 +2,7 @@
     min-height: 100vh;
     /* border: thin solid red; */
 }
+#about-paragraph {
+    margin: 2vh 4vw 2vh 4vw;
+    border: thin solid red;
+}

@@ -2,3 +2,11 @@
     min-height: 100vh;
     /* border: thin solid red; */
 }
+#merch {
+    font-family: 'Oswald';
+    text-align: center;
+    color: var(--nav-color);
+}
+a {
+    color: var(--nav-color);
+}
