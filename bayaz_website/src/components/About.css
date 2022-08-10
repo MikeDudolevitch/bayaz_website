@@ -4,5 +4,15 @@
 }
 #about-paragraph {
     margin: 2vh 4vw 2vh 4vw;
-    border: thin solid red;
+    border: thin solid var(--nav-color);
+    padding: 1vh 2vw 1vh 2vw;
+    background-color: #373737;
+    opacity: .9;
+}
+#about-header {
+    text-align: center;
+}
+#about-img {
+    float: right;
+    padding: 3px;
 }
