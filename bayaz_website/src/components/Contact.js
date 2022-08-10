@@ -2,17 +2,14 @@
 //First name / last name / email / message all required
 //-Include link to press kit here as well
 import React from 'react'
-<<<<<<< HEAD
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { SocialIcon } from 'react-social-icons'
 import './Component.css'
 import './Contact.css'
-=======
 import './Component.css'
 import './Contact.css'
-import { Button, Form } from 'react-bootstrap';
->>>>>>> 61ba0766fdb0f50c978c1fbbf599ba65a6aa1ba0
+
 
 const Contact = () => {
   return (
