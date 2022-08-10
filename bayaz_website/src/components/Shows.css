@@ -8,6 +8,6 @@
 #widget-container{
     margin: 5vw 5vw 0 5vw;
     border: thin solid var(--nav-color);
-    background-color: #373737;
+    background-color: var(--background-grey);
     opacity: .9;
 }
