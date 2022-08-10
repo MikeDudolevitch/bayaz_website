@@ -7,7 +7,15 @@
     text-align: center;
     color: var(--nav-color);
 }
-a {
+#contact-form {
+    margin: 2vh 10vw 2vh 10vw;
+    border: thin solid var(--nav-color);
+    padding: 1vw;
+    font-family: "Oswald";
+    background-color: var(--background-grey);
+    opacity: .9;
+}
+.form-label {
     color: var(--nav-color);
 }
 
@@ -23,4 +31,8 @@ a {
     margin: 0 1rem;
     transition: transform 250ms;
     display: inline-block;
+}
+
+.form-control {
+    color: var(--nav-select);
 }

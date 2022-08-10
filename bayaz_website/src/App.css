@@ -4,10 +4,14 @@ html, body {
     background-image: url('../public/pics/background.png');
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, a {
     color: var(--nav-color);
     text-shadow: 2px 2px 3px var(--text-shadow);
     font-family: "Oswald";
+}
+
+a:hover {
+    color: var(--nav-select);
 }
 
 :root {
@@ -15,6 +19,7 @@ h1, h2, h3, p {
     --nav-select: #E0514C;
     --nav-hover: red;
     --text-shadow: #C96D03;
+    --background-grey: #373737;
 }
 
 .page-wrapper {
