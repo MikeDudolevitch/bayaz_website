@@ -7,6 +7,10 @@
     color: var(--nav-color);
 }
 
+#link:hover {
+    color: var(--nav-select);
+}
+
 #merch {
     font-family: 'Oswald';
     text-align: center;
