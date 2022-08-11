@@ -11,9 +11,13 @@
     padding: 10px 30px;
     margin: auto;
     transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-    width: 60%;
+    width: 80vh;
   }
-  
+  .modalVideo {
+    width: 70vh;
+    height: 40vh;
+    position: relative;
+  }
   .modalParent {
     display: flex;
     justify-content: center;

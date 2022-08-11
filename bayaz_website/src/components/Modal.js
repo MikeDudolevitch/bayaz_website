@@ -42,6 +42,7 @@ function Modal(props) {
           </button>
           <h2>{title}</h2>
           <iframe 
+              className="modalVideo"
               src={urlSource} 
               alt={title}               
               frameBorder='0'
