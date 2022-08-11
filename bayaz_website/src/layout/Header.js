@@ -40,7 +40,7 @@ function Header() {
 
   return (
     <header>
-      <div className="logoNav">
+      <div className="leftSpacer"> </div>
         <Link
           to="gallery"
           activeClass="activeLogo"
@@ -54,6 +54,7 @@ function Header() {
         >
           <img src="./pics/BAYAZtextonlycream.png" alt="bayaz logo" className="logo"/>
         </Link>
+      {/* <div className="logoNav"> */}
         <div className="navParent">
             <div className={`navIcon ${showMenu}`} onClick={menuClick}>
               <div></div>
@@ -61,76 +62,76 @@ function Header() {
               <div></div>
             </div>
 {/* Music / Gallery / Videos / Shows / Merch / Contact / Press Kit */}
-        <nav className={`${showMenu} ${transition}`}>
-          <Link
-            to="gallery"
-            className="navLink"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}
-            onClick={menuClick}
-          >
-            Gallery
-          </Link>
-          <Link
-            to="music"
-            className="navLink"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}
-            onClick={menuClick}
-          >
-            Music
-          </Link>
-          <Link
-            to="video"
-            className="navLink"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}
-            onClick={menuClick}
-          >
-            Videos
-          </Link>
-          <Link
-            to="shows"
-            className="navLink"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}
-            onClick={menuClick}
-          >
-            Shows
-          </Link>
-          <Link
-            to="about"
-            className="navLink"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}
-            onClick={menuClick}
-          >
-            About
-          </Link>
-          <Link
-            to="contact"
-            className="navLink"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}
-            onClick={menuClick}
-          >
-            Contact
-          </Link>
-        </nav>
-        </div>
-        </div>
+          <nav className={`${showMenu} ${transition}`}>
+            <Link
+              to="gallery"
+              className="navLink"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={menuClick}
+            >
+              Gallery
+            </Link>
+            <Link
+              to="music"
+              className="navLink"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={menuClick}
+            >
+              Music
+            </Link>
+            <Link
+              to="video"
+              className="navLink"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={menuClick}
+            >
+              Videos
+            </Link>
+            <Link
+              to="shows"
+              className="navLink"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={menuClick}
+            >
+              Shows
+            </Link>
+            <Link
+              to="about"
+              className="navLink"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={menuClick}
+            >
+              About
+            </Link>
+            <Link
+              to="contact"
+              className="navLink"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              duration={500}
+              onClick={menuClick}
+            >
+              Contact
+            </Link>
+          </nav>
+        {/* </div> */}
+      </div>
     </header>
   );
 }
