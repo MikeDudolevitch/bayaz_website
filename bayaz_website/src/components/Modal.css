@@ -6,17 +6,16 @@
     opacity: 0;
     visibility: collapse;
     background-image: url('../../public/pics/background.png');
-    /* background-color: var(--background-grey); */
     filter: drop-shadow(0 0 5px black);
     border-radius: 20px;
     padding: 0 20px 20px;
     margin: auto;
     transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-    width: 60vw;
+    width: 80vw;
   }
   .modalVideo {
-    width: 90vh;
-    height: 50vh;
+    width: 60vw;
+    height: 34vw;
     position: relative;
     margin: 15px auto;
   }
@@ -76,25 +75,6 @@
     cursor: pointer;
     opacity: 1;
   }
-  
-  /* .modal-button::before {
-    border-radius: inherit;
-    background-image: linear-gradient(to bottom left, #73cbfa, #0083c9);
-    content: "";
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    z-index: -1;
-    transition: opacity 0.1s ease-in-out;
-  }
-  
-  .modal-button:active:before {
-    opacity: 1;
-  } */
   
   .modalButton:active {
     transform: scale(0.95);
