@@ -87,7 +87,7 @@ const Video = () => {
         title="Back to my Girl"
       />
       {/* to add another video you have to add another clickable image,
-       referencing the new modal and new state variable, 
+      referencing the new modal and new state variable, 
       continuing the naming convention by increase the last number of each */}
     </div>
   )

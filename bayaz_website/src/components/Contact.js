@@ -41,7 +41,6 @@ const Contact = () => {
     <br>
     </br>
     <h3 id='merch'><a id="link" href='https://thenuclears.bandcamp.com/merch'>Buy a record! Buy a shirt! Buy both- Christmas is right around the corner!</a></h3>
-    {/* Put Social Icons here */}
         <div className = "d-flex justify-content-center socialIconContainer">
           <SocialIcon className='socialIcon' url="https://www.facebook.com/bayazband" />
           <SocialIcon className='socialIcon' url="https://twitter.com/TheNuclears" />
