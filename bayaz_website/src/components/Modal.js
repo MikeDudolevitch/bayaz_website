@@ -26,6 +26,11 @@ function Modal({
     <div>
       <div className={`modalParent ${modalVis}`}>
         <div className={`modalCustom ${modalVis}`}>
+          
+          <div className="modalHeader">
+          <div className="modalSpacer"></div>
+          <h2>{title}</h2>
+          <div className="modalSpacer">
           <button
             className="modalClose"
             aria-label="Close Project Modal Box"
@@ -36,7 +41,8 @@ function Modal({
           >
             &times;
           </button>
-          <h2>{title}</h2>
+          </div>
+          </div>
           <iframe 
               className="modalVideo"
               src={urlSource} 
