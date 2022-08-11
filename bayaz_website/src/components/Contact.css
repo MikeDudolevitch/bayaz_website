@@ -17,13 +17,23 @@
     color: var(--nav-color);
 }
 
+#contact-content {
+    /* margin: auto 5vw auto 5vw; */
+    border: thin solid var(--nav-color);
+    /* padding: 2vw; */
+    background-color: var(--background-grey);
+    opacity: .9;
+    border-radius: 10px;
+}
+
 #contact-form {
-    margin: 2vh 10vw 2vh 10vw;
+    /* margin: auto 5vw auto 5vw; */
     border: thin solid var(--nav-color);
     padding: 2vw;
     font-family: "Oswald";
     background-color: var(--background-grey);
     opacity: .9;
+    border-radius: 10px;
 }
 
 .form-label {
@@ -32,7 +42,7 @@
 }
 
 .socialIconContainer {
-    padding-top: 10px;
+    margin: 2vh auto 2vh auto;
 }
 
 .socialIcon:hover {

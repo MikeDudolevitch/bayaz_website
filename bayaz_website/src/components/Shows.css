@@ -10,4 +10,5 @@
     border: thin solid var(--nav-color);
     background-color: var(--background-grey);
     opacity: .9;
+    border-radius: 10px;
 }
