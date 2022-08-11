@@ -6,9 +6,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
     border: thin solid red;
 }
 
 .youtube {
+    width: 200px;
     border: thin solid red;
 }
