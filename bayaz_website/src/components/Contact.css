@@ -55,3 +55,14 @@
     font-size: 1.1em;
     text-shadow: 2px 2px 2px var(--text-shadow);
 }
+
+#form-button:hover {
+    transition: all .5s ease-out;
+    transform: scale(1.1);
+}
+
+.formFields {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
