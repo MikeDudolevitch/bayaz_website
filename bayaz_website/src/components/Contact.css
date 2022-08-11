@@ -24,6 +24,15 @@
     background-color: var(--background-grey);
     opacity: .9;
     border-radius: 10px;
+    margin-bottom: 2vh;
+}
+
+#bandcamp-container {
+    display: flex;
+    padding: 10%;
+    margin: 5% 2% 5% 2%;
+    border: thin solid red;
+    justify-content: flex-end;
 }
 
 #contact-form {
@@ -34,6 +43,7 @@
     background-color: var(--background-grey);
     opacity: .9;
     border-radius: 10px;
+    margin-bottom: 2vh;
 }
 
 .form-label {
@@ -42,7 +52,7 @@
 }
 
 .socialIconContainer {
-    margin: 2vh auto 2vh auto;
+    padding: 5vh;
 }
 
 .socialIcon:hover {

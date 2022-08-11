@@ -13,3 +13,7 @@
     width: 20vw;
     min-width: 250px;
 }
+
+.videoContainer:hover {
+    cursor: pointer;
+}
