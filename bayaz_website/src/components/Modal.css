@@ -65,7 +65,7 @@
     font-size: 20px;
     white-space: nowrap;
     background-image: linear-gradient(to bottom left, var(--nav-hover), brown);
-    color: white;
+    color: var(--nav-color);
     border-radius: 15px;
     border: none;
     filter: drop-shadow(0px 0px 2px var(--nav-hover));
@@ -74,6 +74,7 @@
     transition: transform 0.1s ease-in-out;
     cursor: pointer;
     opacity: 1;
+    font-family: "Oswald";
   }
   
   .modalButton:active {
@@ -132,7 +133,7 @@
       font-size: 18px;
     }
     .modalCustom {
-      padding: 5px 5px;
+      padding: 0 5px 15px;
       width: 95vw;
     }
   
