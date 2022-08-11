@@ -2,16 +2,12 @@ import React, { useEffect, useState } from "react";
 // import { useRef } from "react";
 import "./Modal.css";
 
-function Modal(props) {
-  const {
-    modalVis,
-    setModalVis,
-    title,
-    URL,
-    // text
-  } = props;
-
-//   const [urlSource, setUrlSource] = useState(URL);
+function Modal({
+  modalVis,
+  setModalVis,
+  title,
+  URL
+}) {
   const [urlSource, setUrlSource] = useState(URL);
   useEffect(() => {
     const body = document.body;

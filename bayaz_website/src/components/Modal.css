@@ -5,8 +5,10 @@
     align-items: center;
     opacity: 0;
     visibility: collapse;
-    background-color: white;
-    filter: drop-shadow(0 0 5px gray);
+    /* background-color: white; */
+    background-image: url('../../public/pics/background.png');
+    /* background-color: var(--background-grey); */
+    /* filter: drop-shadow(0 0 5px gray); */
     border-radius: 20px;
     padding: 10px 30px;
     margin: auto;
@@ -17,6 +19,7 @@
     width: 70vh;
     height: 40vh;
     position: relative;
+    margin: 15px auto;
   }
   .modalParent {
     display: flex;
@@ -62,11 +65,12 @@
     margin: 10px;
     font-size: 20px;
     white-space: nowrap;
-    background-image: linear-gradient(to bottom left, #00a6ff, #0085cc);
+    background-image: linear-gradient(to bottom left, var(--nav-hover), brown);
+    /* background-color: var(--nav-select); */
     color: white;
     border-radius: 15px;
     border: none;
-    filter: drop-shadow(0px 0px 2px gray);
+    /* filter: drop-shadow(0px 0px 2px gray); */
     border: none;
     outline: none;
     transition: transform 0.1s ease-in-out;
@@ -103,7 +107,7 @@
     align-items: center;
     font-size: 50px;
     height: 50px;
-    color: #0296e6;
+    color: var(--nav-hover);
     background-color: transparent;
     border: none;
     outline: none;

@@ -19,38 +19,46 @@ const Video = () => {
       <Container flow="md">
         <Row className="d-flex flex-row">
           <Col  className="videoContainer">    
+            <h3>Zegema Beach</h3>
             <img
               className="youtube"
               src="./pics/Video1.png"
               alt="Zegema Beach"
               onClick={() => {setModalVis1("visible")}}
             />
+            <p>Some text here</p>
           </Col>
           <Col className="videoContainer">     
+            <h3>Lightspeed Getaway</h3>
             <img
               className="youtube"
               src="./pics/Video2.png"
               alt="Lightspeed Getaway"
               onClick={() => {setModalVis2("visible")}}
             />
+            <p>Some text here</p>
           </Col>
         </Row>
         <Row className="d-flex flex-row">
-          <Col className="videoContainer">      
+          <Col className="videoContainer">  
+          <h3>I Just Wanna Have Nothin to Do</h3>    
             <img
               className="youtube"
               src="./pics/Video3.png"
-              alt="Lightspeed Getaway"
+              alt="I Just Wanna Have Nothin to Do"
               onClick={() => {setModalVis3("visible")}}
             />
+            <p>Some text here</p>
             </Col>
-            <Col className="videoContainer">    
+            <Col className="videoContainer">   
+            <h3>Back to my Girl</h3> 
             <img
               className="youtube"
               src="./pics/Video4.png"
-              alt="Lightspeed Getaway"
+              alt="Back to my Girl"
               onClick={() => {setModalVis4("visible")}}
             />
+            <p>Some text here</p>
           </Col>
         </Row>
       </Container>      
@@ -59,29 +67,28 @@ const Video = () => {
         setModalVis={setModalVis1}
         URL='https://www.youtube.com/embed/BId86m-TCj4?enablejsapi=1&version=3&playerapiid=ytplayer'
         title="Zegema Beach"
-        text=""
       />
       <Modal
         modalVis={modalVis2}
         setModalVis={setModalVis2}
         URL='https://www.youtube.com/embed/WZcGftHr5Xg?enablejsapi=1&version=3&playerapiid=ytplayer'
         title="Lightspeed Getaway"
-        text=""
       />
       <Modal
         modalVis={modalVis3}
         setModalVis={setModalVis3}
         URL='https://www.youtube.com/embed/5mhtyW6gxMY?enablejsapi=1&version=3&playerapiid=ytplayer'
         title="I Just Wanna Have Nothin to Do"
-        text=""
       />
       <Modal
         modalVis={modalVis4}
         setModalVis={setModalVis4}
         URL='https://www.youtube.com/embed/mOoTwRQzB80?enablejsapi=1&version=3&playerapiid=ytplayer'
         title="Back to my Girl"
-        text=""
       />
+      {/* to add another video you have to add another clickable image,
+       referencing the new modal and new state variable, 
+      continuing the naming convention by increase the last number of each */}
     </div>
   )
 }

@@ -18,7 +18,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 54vw;
+    min-width: 55vw;
     padding-left: 15px;
     max-height: 80px;
   }
@@ -74,7 +74,7 @@ header {
     text-decoration: none;
   }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 1200px) {
     .navIcon > div {
       display: block;
       position: relative;
