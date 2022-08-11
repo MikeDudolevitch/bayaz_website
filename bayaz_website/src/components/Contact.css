@@ -2,11 +2,56 @@
     min-height: 100vh;
     /* border: thin solid red; */
 }
+
+#link {
+    color: var(--nav-color);
+}
+
+#link:hover {
+    color: var(--nav-select);
+}
+
 #merch {
     font-family: 'Oswald';
     text-align: center;
     color: var(--nav-color);
 }
-a {
+
+#contact-form {
+    margin: 2vh 10vw 2vh 10vw;
+    border: thin solid var(--nav-color);
+    padding: 2vw;
+    font-family: "Oswald";
+    background-color: var(--background-grey);
+    opacity: .9;
+}
+
+.form-label {
     color: var(--nav-color);
+    text-shadow: 2px 2px 2px var(--nav-hover);
+}
+
+.socialIconContainer {
+    padding-top: 10px;
+}
+
+.socialIcon:hover {
+    transform: translateY(-3px);
+}
+
+.socialIcon {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+#form-button {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-color: var(--nav-select);
+    color: var(--nav-color);
+    border: thin solid var(--nav-hover);
+    font-size: 1.1em;
+    text-shadow: 2px 2px 2px var(--text-shadow);
 }

@@ -19,6 +19,7 @@ a:hover {
     --nav-select: #E0514C;
     --nav-hover: red;
     --text-shadow: #C96D03;
+    --background-grey: #373737;
 }
 
 .page-wrapper {
@@ -26,6 +27,14 @@ a:hover {
     border: 5px 5px red;
 }
 
+.page-content {
+    color: var(--nav-color);
+    text-shadow: 2px 2px 2px var(--nav-hover);
+}
+
+.content-header {
+    text-align: center;
+}
 
 @media screen and (min-width: 501px) {
     /*desktop size*/
