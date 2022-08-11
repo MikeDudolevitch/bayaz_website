@@ -20,19 +20,19 @@ const Contact = () => {
           </Form.Text>
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label className='form-label page-content'>First Name</Form.Label>
-            <Form.Control type="text" placeholder="First Name" />
+            <Form.Control type="text" placeholder="First Name" required/>
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label className='form-label page-content'>Last Name</Form.Label>
-            <Form.Control type="text" placeholder="Last Name" />
+            <Form.Control type="text" placeholder="Last Name" required/>
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label className='form-label page-content'>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
+              <Form.Control type="email" placeholder="Enter email" required/>
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label className='form-label page-content'>Message</Form.Label>
-            <Form.Control as="textarea" rows={3}  type="textarea" placeholder="Write Your Message" />
+            <Form.Control as="textarea" rows={3}  type="textarea" placeholder="Write Your Message" required/>
           </Form.Group>
           <Button id="form-button" variant="primary" type="submit">
             Fire Away

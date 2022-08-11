@@ -49,7 +49,7 @@
     margin-right: auto;
     margin-left: auto;
     display: block;
-    background-color: var(--nav-select);
+    background-image: linear-gradient(to bottom left, var(--nav-hover), brown);
     color: var(--nav-color);
     border: thin solid var(--nav-hover);
     font-size: 1.1em;
