@@ -2,6 +2,10 @@
     min-height: 100vh;
     /* border: thin solid red; */
 }
+.contactParent {
+    display: flex;
+    flex-direction: row;
+}
 
 #link {
     color: var(--nav-color);
@@ -85,4 +89,11 @@
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
+}
+@media screen and (max-width: 1000px) {
+    /*desktop size*/
+    .contactParent {
+        align-items: center;
+        flex-direction: column;
+    }
 }

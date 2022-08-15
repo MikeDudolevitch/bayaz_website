@@ -13,7 +13,7 @@ const Contact = () => {
     <div id="contact" className='page-wrapper component'>
       <div className=''>
       <h1 className="section-title">Contact</h1>
-        <div className="row justify-content-around">
+        <div className="contactParent justify-content-around">
           <div className="col-6" id="contact-content">
             <div id="bandcamp-container">
               <p>If there's one place to follow us, its here:
@@ -51,13 +51,14 @@ const Contact = () => {
               </Button>
             </Form>
           </div>
-        <div className= "d-flex justify-content-center socialIconContainer">
-          <SocialIcon className='socialIcon' url="https://www.facebook.com/bayazband" />
-          <SocialIcon className='socialIcon' url="https://twitter.com/TheNuclears" />
-          <SocialIcon className='socialIcon' url="https://www.instagram.com/bayazband/" />
-          <SocialIcon className='socialIcon' url="https://www.youtube.com/user/bmavericknukes" />
-          <SocialIcon className='socialIcon' network="email" url="mailto:bayaztheband@gmail.com" />
+
         </div>
+        <div className= "d-flex justify-content-center socialIconContainer">
+            <SocialIcon className='socialIcon' url="https://www.facebook.com/bayazband" />
+            <SocialIcon className='socialIcon' url="https://twitter.com/TheNuclears" />
+            <SocialIcon className='socialIcon' url="https://www.instagram.com/bayazband/" />
+            <SocialIcon className='socialIcon' url="https://www.youtube.com/user/bmavericknukes" />
+            <SocialIcon className='socialIcon' network="email" url="mailto:bayaztheband@gmail.com" />
         </div>
       </div>
     </div>
