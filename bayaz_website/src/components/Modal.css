@@ -93,7 +93,7 @@
 
     width: 20%;
   }
-  .modalClose {
+  .modalClose{
     font-size: 40px;
     color: var(--nav-hover);
     background-color: transparent;
@@ -102,6 +102,8 @@
     transition: transform 0.1s ease-in-out;
     cursor: pointer;
   }
+
+
   
   .modalClose:active {
     transform: scale(0.9);
