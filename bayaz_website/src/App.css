@@ -2,9 +2,10 @@ html, body {
     padding: 0;
     margin: 0;
     background-image: url('../public/pics/background.png');
+    font-family: "Oswald";
 }
 
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, button {
     color: var(--nav-color);
     text-shadow: 2px 2px 3px var(--text-shadow);
     font-family: "Oswald";

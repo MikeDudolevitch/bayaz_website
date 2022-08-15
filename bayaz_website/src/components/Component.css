@@ -10,11 +10,11 @@
     min-height: 100vh;
     padding-top: 80px;
     box-sizing: border-box;
-    border: thin solid red;
+    /* border: thin solid red; */
 }
 
 .section-title {
-    border: thin solid red;
+    /* border: thin solid red; */
     margin-bottom: 4vh;
     margin-left: 15px;
     text-align: left;
@@ -22,12 +22,12 @@
     color: var(--nav-color);
     text-shadow: 3px 3px 3px var(--text-shadow);
     text-size-adjust: auto;
-    font-size: 36px;
+    font-size: 24px;
 }
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 1201px) {
     /*desktop size*/
     .section-title {
-        font-size: 48px;
+        font-size: 36px;
     }
 }
 

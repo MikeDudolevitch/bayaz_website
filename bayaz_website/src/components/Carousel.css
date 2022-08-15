@@ -6,8 +6,9 @@
 } */
 
 #carousel img{
-    width: 250px;
-    height: 850px;
+    /* width: 250px; */
+    height: 80vh;
+    object-fit: cover;
     object-fit: contain;
     padding-bottom: 30px;
 }
