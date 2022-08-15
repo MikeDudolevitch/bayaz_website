@@ -24,7 +24,7 @@ a:hover {
 }
 
 .page-wrapper {
-    padding: 5px;
+    /* padding: 5px; */
     border: 5px 5px red;
 }
 
