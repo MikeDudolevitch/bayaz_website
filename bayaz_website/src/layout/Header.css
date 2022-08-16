@@ -1,226 +1,232 @@
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    user-select: none;
-    height: 80px;
-    color: var(--nav-color);
-    text-shadow: 2px 2px 4px #C96D03;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    flex-wrap: nowrap;
-  }
-  .leftSpacer {
-    width: 45vw;
-  }
-  .logoNav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 55vw;
-    padding-left: 15px;
-    max-height: 80px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  user-select: none;
+  height: 80px;
+  color: var(--nav-color);
+  text-shadow: 2px 2px 4px #C96D03;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  flex-wrap: nowrap;
+}
+.leftSpacer {
+  width: 45vw;
+}
+.logoNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 55vw;
+  padding-left: 15px;
+  max-height: 80px;
+}
+.logo {
+  padding: 0 20px;
+  margin-top: 60px;
+  width: 250px;
+  cursor: pointer;
+}
+.navParent {
+  display: flex;
+  justify-content: flex-end;
+  width: 45vw;
+  height: 100%;
+  position: relative;
+  right: 0;
+  top: 0;
+  padding: 15px 35px;
+  z-index: 4;
+}
+nav {
+  width: 450px;
+  transition: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.navLink {
+  font-family: 'Oswald';
+  outline: none;
+  padding: 2px 10px;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--nav-color);
+}
+
+.activeLogo {
+  border: none;
+}
+
+.navIcon {
+  display: none;
+}
+
+.logo:hover,
+.navLink:hover,
+.active,
+.activeLogo {
+  color: var(--nav-select);
+  text-shadow: 2px 2px 2px red;
+  text-decoration: none;
+}
+
+.active,
+.navIcon {
+  border: var(--nav-hover);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
   .logo {
-    padding: 15px 20px;
-    width: 150px;
-    cursor: pointer;
+    margin-top: 40px;
+    width: 200px;
   }
-  .navParent {
-    display: flex;
-    justify-content: flex-end;
-    width: 45vw;
-    height: 100%;
+
+  .navIcon > div {
+    display: block;
     position: relative;
-    right: 0;
-    top: 0;
-    padding: 15px 35px;
+    background-color: var(--nav-hover);     
+    content: "";
+    height: 3px;
+    margin: 5px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navIcon {
+    display: block;
+    margin-left: auto;
+    width: 44px;
+    height: 35px;
+    border: thin solid red;
+    border-radius: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
     z-index: 4;
   }
+
   nav {
-    width: 450px;
-    transition: none;
-    cursor: pointer;
-    margin-right: 10px;
+    position: absolute;
+    visibility: collapse;
+    transform: translateY(-100%);
+    top: 0px;
+    right: 0px;
+    margin: 0;
+    width: 100vw;
+    padding: 80px 100px 8px;
+    background: rgba(0,0, 0, .5);
+    z-index: 3;
   }
-  
+
   .navLink {
-    font-family: 'Oswald';
-    outline: none;
-    padding: 2px 10px;
-    border-radius: 15px;
-    border: 2px solid transparent;
-    font-size: 18px;
-    font-weight: 500;
-    text-decoration: none;
-    color: var(--nav-color);
+    display: block;
+    position: relative;
+    text-align: right;
+    margin: 0 0 0 auto;
+    z-index: 100;
   }
-  
-  .activeLogo {
-    border: none;
+
+  nav.transition {
+    transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
   }
-  
-  .navIcon {
-    display: none;
+
+  nav.visible {
+    visibility: visible;
+    transform: translateY(0);
   }
-  
-  .logo:hover,
-  .navLink:hover,
-  .active,
-  .activeLogo {
-    color: var(--nav-select);
-    text-shadow: 2px 2px 2px red;
-    text-decoration: none;
+
+  .navIcon.visible > :first-child {
+    transform: translateY(5px) rotate(45deg);
   }
-  
-  .active,
-  .navIcon {
-    border: var(--nav-hover);
-    text-decoration: none;
+
+  .navIcon.visible > :last-child {
+    transform: translateY(-5px) rotate(-45deg);
   }
-  
-  @media screen and (max-width: 1200px) {
-    .navIcon > div {
-      display: block;
-      position: relative;
-      background-color: var(--nav-hover);     
-      content: "";
-      height: 3px;
-      margin: 5px 0;
-      transition: transform 0.3s ease-in-out;
-    }
-  
-    .navIcon {
-      display: block;
-      margin-left: auto;
-      width: 44px;
-      height: 35px;
-      border: thin solid red;
-      border-radius: 5px;
-      padding: 2px 5px;
-      cursor: pointer;
-      z-index: 4;
-    }
-  
-    nav {
-      position: absolute;
-      visibility: collapse;
-      transform: translateY(-100%);
-      top: 0px;
-      right: 0px;
-      margin: 0;
-      width: 100vw;
-      padding: 80px 100px 8px;
-      background: rgba(0,0, 0, .5);
-      z-index: 3;
-    }
-  
-    .navLink {
-      display: block;
-      position: relative;
-      text-align: right;
-      margin: 0 0 0 auto;
-      z-index: 100;
-    }
-  
-    nav.transition {
-      transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    }
-  
-    nav.visible {
-      visibility: visible;
-      transform: translateY(0);
-    }
-  
-    .navIcon.visible > :first-child {
-      transform: translateY(5px) rotate(45deg);
-    }
-  
-    .navIcon.visible > :last-child {
-      transform: translateY(-5px) rotate(-45deg);
-    }
-  
-    .navIcon.visible > :nth-child(2) {
-      transform: scale(0);
-    }
-  
-    /* the below code is for fading in the drop down menu. before attempting to use, switch classnames to camelcase */
-  
-    /* header {
-      flex-direction: row;
-      justify-content: flex-start;
-      flex-wrap: wrap;
-      height: 85px;
-    }
-  
-    .logo-parent {
-      display: flex;
-      justify-content: flex-start;
-      padding-left: 20px;
-      width: 80%;
-    }
-  
-    .nav-icon-parent {
-      width: 20%;
-    }
-  
-    .nav-link {
-      display: block;
-    }
-  
-    nav {
-      visibility: collapse;
-      opacity: 0;
-      position: absolute;
-      top: 84px;
-      left: -1px;
-      margin: 0;
-      width: 101%;
-      padding: 3px 40px;
-    }
-  
-    nav.transition {
-      transition: visibility 0.2s ease-in-out, opacity 0.2s ease-in-out;
-    }
-  
-    nav.visible {
-      visibility: visible;
-      opacity: 1;
-    }
-  
-    .nav-icon {
-      height: 38px;
-      width: 44px;
-      border: 4px solid #00a5ff;
-      border-radius: 10px;
-      padding: 2px 5px 2px 5px;
-      cursor: pointer;
-    }
-  
-    .nav-icon > div {
-      display: block;
-      background-color: #00a5ff;
-      border-radius: 3px;
-      content: "";
-      height: 2px;
-      margin: 5px 0;
-      transition: transform 0.2s ease-in-out;
-    }
-  
-    .nav-icon.visible > :first-child {
-      transform: translateY(5px) rotate(45deg);
-    }
-  
-    .nav-icon.visible > :last-child {
-      transform: translateY(-5px) rotate(-45deg);
-    }
-  
-    .nav-icon.visible > :nth-child(2) {
-      transform: scale(0);
-    } */
+
+  .navIcon.visible > :nth-child(2) {
+    transform: scale(0);
   }
+
+  /* the below code is for fading in the drop down menu. before attempting to use, switch classnames to camelcase */
+
+  /* header {
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 85px;
+  }
+
+  .logo-parent {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    width: 80%;
+  }
+
+  .nav-icon-parent {
+    width: 20%;
+  }
+
+  .nav-link {
+    display: block;
+  }
+
+  nav {
+    visibility: collapse;
+    opacity: 0;
+    position: absolute;
+    top: 84px;
+    left: -1px;
+    margin: 0;
+    width: 101%;
+    padding: 3px 40px;
+  }
+
+  nav.transition {
+    transition: visibility 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  }
+
+  nav.visible {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav-icon {
+    height: 38px;
+    width: 44px;
+    border: 4px solid #00a5ff;
+    border-radius: 10px;
+    padding: 2px 5px 2px 5px;
+    cursor: pointer;
+  }
+
+  .nav-icon > div {
+    display: block;
+    background-color: #00a5ff;
+    border-radius: 3px;
+    content: "";
+    height: 2px;
+    margin: 5px 0;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .nav-icon.visible > :first-child {
+    transform: translateY(5px) rotate(45deg);
+  }
+
+  .nav-icon.visible > :last-child {
+    transform: translateY(-5px) rotate(-45deg);
+  }
+
+  .nav-icon.visible > :nth-child(2) {
+    transform: scale(0);
+  } */
+}

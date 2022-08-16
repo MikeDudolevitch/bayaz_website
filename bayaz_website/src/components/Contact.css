@@ -1,6 +1,35 @@
 #contact {
     min-height: 100vh;
-    /* border: thin solid red; */
+}
+.contactParent {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+#contact-content {
+    border: thin solid var(--nav-color);
+    background-color: var(--background-grey);
+    opacity: .9;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    width: 40%;
+    padding: 10px;
+}
+
+.formParent {
+    width: 40%;
+}
+
+#contactForm {
+    border: thin solid var(--nav-color);
+    font-family: "Oswald";
+    background-color: var(--background-grey);
+    opacity: .9;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding: 10px;
+    width: 40%;
 }
 
 #link {
@@ -17,34 +46,14 @@
     color: var(--nav-color);
 }
 
-#contact-content {
-    /* margin: auto 5vw auto 5vw; */
-    border: thin solid var(--nav-color);
-    /* padding: 2vw; */
-    background-color: var(--background-grey);
-    opacity: .9;
-    border-radius: 10px;
-    margin-bottom: 2vh;
-}
-
 #bandcamp-container {
-    display: flex;
+    /* display: flex; */
     padding: 10%;
     margin: 5% 2% 5% 2%;
-    /* border: thin solid red; */
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 
-#contact-form {
-    /* margin: auto 5vw auto 5vw; */
-    border: thin solid var(--nav-color);
-    padding: 2vw;
-    font-family: "Oswald";
-    background-color: var(--background-grey);
-    opacity: .9;
-    border-radius: 10px;
-    margin-bottom: 2vh;
-}
+
 
 .form-label {
     color: var(--nav-color);
@@ -85,4 +94,22 @@
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
+}
+@media screen and (max-width: 1000px) {
+    /*desktop size*/
+    .contactParent {
+        align-items: center;
+        flex-direction: column;
+    }
+    #contactForm {
+        width: 80vw;
+    }
+    #contact-content {
+        width: 80vw;
+    }
+    #bandcamp-container {
+        padding: 5px;
+        height: 60px;
+    }
+
 }
