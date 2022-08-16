@@ -5,9 +5,10 @@ html, body {
     font-family: "Oswald";
 }
 
-h1, h2, h3, p, a, button {
+h1, h2, h3, a, button {
     color: var(--nav-color);
-    text-shadow: 2px 2px 3px var(--text-shadow);
+    text-shadow: 2px 2px 3px var(--nav-hover);
+    /* text-shadow: 2px 2px 2px var(--nav-hover) !important; */
     font-family: "Oswald";
 }
 
@@ -28,15 +29,20 @@ a:hover {
     border: 5px 5px red;
 }
 
-.page-content {
+.page-content, p {
     color: var(--nav-color);
-    text-shadow: 2px 2px 2px var(--nav-hover);
+    text-shadow: 2px 2px 2px var(--text-shadow);
+    font-family: "Oswald";
 }
 
 .content-header {
     text-align: center;
 }
-
+.boxTextShadow {
+    color: var(--nav-color);
+    font-family: "Oswald";
+    text-shadow: 2px 2px 2px var(--nav-hover);
+}
 @media screen and (min-width: 501px) {
     /*desktop size*/
 
