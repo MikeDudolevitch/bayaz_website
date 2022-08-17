@@ -18,6 +18,9 @@ const ControlledCarousel = () => {
                 src="./pics/BAYAZYELLOW.jpg"
                 alt="BayazYellow"
                 />
+                <div class="carousel-caption d-md-block">
+                    <p className='caption'>Photo by Michele Hug. Graphic by Stephen Voland.</p>
+                </div>
             </Carousel.Item>
             <Carousel.Item>
                 <img
@@ -25,6 +28,9 @@ const ControlledCarousel = () => {
                 src="./pics/BAYAZRED.jpg"
                 alt="BayazRed"
                 />
+                <div class="carousel-caption d-md-block">
+                    <p className='caption'>Photo by Michele Hug. Graphic by Stephen Voland.</p>
+                </div>
             </Carousel.Item>
             <Carousel.Item>
                 <img
@@ -32,9 +38,23 @@ const ControlledCarousel = () => {
                 src="./pics/BovinaMountainsPressShot_MicheleHug.jpeg"
                 alt="BayazRed"
                 />
+                <div class="carousel-caption d-none d-md-block">
+                    <p className='caption'>Photo by Michele Hug.</p>
+                </div>
             </Carousel.Item>
         </Carousel>
     );
 }
+            // HERE IS THE TEMPLATE FOR ADDING NEW PICS TO THE CAROUSEL.
+            // <Carousel.Item>
+            //     <img
+            //     className="d-block w-100"
+            //     src="./pics/filename.jpg"
+            //     alt="descriptive text"
+            //     />
+            //     <div class="carousel-caption d-md-block">
+            //         <p className='caption'>The photo credit.</p>
+            //     </div>
+            // </Carousel.Item>
 
 export default ControlledCarousel

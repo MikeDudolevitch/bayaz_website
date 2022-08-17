@@ -15,3 +15,7 @@
 #carousel {
     z-index: 0;
 }
+.caption {
+    font-size: x-small;
+    text-shadow: 2px 2px 2px red;
+}
