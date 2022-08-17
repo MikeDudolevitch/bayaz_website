@@ -16,9 +16,9 @@ const Video = () => {
     
     <div id='video' className='page-wrapper component'>
       <h1 className="section-title">Video</h1>
-      <Container flow="md">
-        <Row className="d-flex flex-row">
-          <Col  className="videoContainer">    
+      <Container fluid>
+        <Row >
+          <Col className="videoContainer">    
             <h3>Zegema Beach</h3>
             <img
               className="youtube"
@@ -39,7 +39,7 @@ const Video = () => {
             <p>Some text here</p>
           </Col>
         </Row>
-        <Row className="d-flex flex-row">
+        <Row>
           <Col className="videoContainer">  
           <h3>I Just Wanna Have Nothin to Do</h3>    
             <img

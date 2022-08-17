@@ -20,7 +20,7 @@
     text-align: left;
     font-family: "Oswald";
     color: var(--nav-color);
-    text-shadow: 3px 3px 3px var(--text-shadow);
+    text-shadow: 3px 3px 3px var(--nav-hover);
     text-size-adjust: auto;
     font-size: 24px;
 }
