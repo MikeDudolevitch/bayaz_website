@@ -18,6 +18,7 @@ const Contact = () => {
             <div id="bandcamp-container">
               <p>If there's one place to follow us, its here:
                 <iframe scrolling="no" title="bandcamp" style={{display: "inline", border: 0, width: "100%", height: 33}} src="https://bandcamp.com/band_follow_button_classic/2460860197"></iframe>
+                Or check out our <a target='_blank'href='./assets/BayazPressKitV1.pdf'>press kit</a>
               </p>
             </div>
             <h3 style={{marginBottom: "2vh"}} id='merch'><a id="link" href='https://thenuclears.bandcamp.com/merch'>Buy a record! Buy a shirt! Buy both- Christmas is right around the corner!</a></h3>  
