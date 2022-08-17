@@ -13,7 +13,6 @@ const Video = () => {
     const [modalVis4, setModalVis4] = useState("");
 
   return (
-    
     <div id='video' className='page-wrapper component'>
       <h1 className="section-title">Video</h1>
       <Container fluid>
@@ -26,7 +25,7 @@ const Video = () => {
               alt="Zegema Beach"
               onClick={() => {setModalVis1("visible")}}
             />
-            <p>Some text here</p>
+            <p>Directed by Shawn Gallagher</p>
           </Col>
           <Col className="videoContainer">     
             <h3>Lightspeed Getaway</h3>
@@ -36,7 +35,7 @@ const Video = () => {
               alt="Lightspeed Getaway"
               onClick={() => {setModalVis2("visible")}}
             />
-            <p>Some text here</p>
+            <p>Directed and Animated by Wendy Norton</p>
           </Col>
         </Row>
         <Row>
@@ -48,7 +47,7 @@ const Video = () => {
               alt="I Just Wanna Have Nothin to Do"
               onClick={() => {setModalVis3("visible")}}
             />
-            <p>Some text here</p>
+            <p>Directed by the Nuclears</p>
             </Col>
             <Col className="videoContainer">   
             <h3>Back to my Girl</h3> 
@@ -58,7 +57,7 @@ const Video = () => {
               alt="Back to my Girl"
               onClick={() => {setModalVis4("visible")}}
             />
-            <p>Some text here</p>
+            <p>Animated by Briana Layon</p>
           </Col>
         </Row>
       </Container>      
