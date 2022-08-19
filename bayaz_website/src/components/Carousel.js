@@ -15,6 +15,76 @@ const ControlledCarousel = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
+                src="./pics/GeoffTVEye.jpg"
+                alt="A drummer looking intense playing live"
+                />
+                <div class="carousel-caption d-md-block">
+                    <p className='caption'>Photo by Jeanette D. Moses.</p>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src="./pics/GeorgeStudio.jpeg"
+                alt="Closeup profile of a guy playing the bass guitar."
+                />
+                <div class="carousel-caption d-md-block">
+                    <p className='caption'>Photo by Geoffrey Hug.</p>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src="./pics/BovinaMountainsPressShot_MicheleHug.jpeg"
+                alt="BayazRed"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <p className='caption'>Photo by Michele Hug.</p>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src="./pics/BayazStudio.jpeg"
+                alt="A rock n roll band in the recording studio."
+                />
+                <div class="carousel-caption d-md-block">
+                    <p className='caption'>Photo by Julie DelSalle.</p>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src="./pics/MorgMikeTVEye.jpg"
+                alt="A drummer looking intense playing live"
+                />
+                <div class="carousel-caption d-md-block">
+                    <p className='caption'>Photo by Jeanette D. Moses.</p>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src="./pics/GeoffStudio.jpeg"
+                alt="A drummer performing in a recording studio."
+                />
+                <div class="carousel-caption d-md-block">
+                    <p className='caption'>Photo by Jeanette D. Moses.</p>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src="./pics/MandGTVEye.jpg"
+                alt="A guitarist and bassist performing onstage."
+                />
+                <div class="carousel-caption d-md-block">
+                    <p className='caption'>Photo by Jeanette D. Moses.</p>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
                 src="./pics/BAYAZYELLOW.jpg"
                 alt="BayazYellow"
                 />
@@ -30,16 +100,6 @@ const ControlledCarousel = () => {
                 />
                 <div class="carousel-caption d-md-block">
                     <p className='caption'>Photo by Michele Hug. Graphic by Stephen Voland.</p>
-                </div>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                className="d-block w-100"
-                src="./pics/BovinaMountainsPressShot_MicheleHug.jpeg"
-                alt="BayazRed"
-                />
-                <div class="carousel-caption d-none d-md-block">
-                    <p className='caption'>Photo by Michele Hug.</p>
                 </div>
             </Carousel.Item>
         </Carousel>
