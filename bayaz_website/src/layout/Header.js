@@ -45,7 +45,7 @@ function Header() {
           to="music"
           activeClass="activeLogo"
           spy={true}
-          smooth={true}
+          smooth={false}
           duration={500}
           onClick={() => {
             setShowMenu("");
@@ -68,7 +68,7 @@ function Header() {
               className="navLink"
               activeClass="active"
               spy={true}
-              smooth={true}
+              smooth={false}
               duration={500}
               onClick={menuClick}
             >
@@ -79,7 +79,7 @@ function Header() {
               className="navLink"
               activeClass="active"
               spy={true}
-              smooth={true}
+              smooth={false}
               duration={500}
               onClick={menuClick}
             >
@@ -90,7 +90,7 @@ function Header() {
               className="navLink"
               activeClass="active"
               spy={true}
-              smooth={true}
+              smooth={false}
               duration={500}
               onClick={menuClick}
             >
@@ -101,7 +101,7 @@ function Header() {
               className="navLink"
               activeClass="active"
               spy={true}
-              smooth={true}
+              smooth={false}
               duration={500}
               onClick={menuClick}
             >
@@ -112,7 +112,7 @@ function Header() {
               className="navLink"
               activeClass="active"
               spy={true}
-              smooth={true}
+              smooth={false}
               duration={500}
               onClick={menuClick}
             >
@@ -123,7 +123,7 @@ function Header() {
               className="navLink"
               activeClass="active"
               spy={true}
-              smooth={true}
+              smooth={false}
               duration={500}
               onClick={menuClick}
             >
