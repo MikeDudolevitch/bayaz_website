@@ -33,14 +33,6 @@
     width: 40%;
 }
 
-#link {
-    color: var(--nav-color);
-}
-
-#link:hover {
-    color: var(--nav-select);
-}
-
 #merch {
     font-family: 'Oswald';
     text-align: center;
@@ -101,7 +93,6 @@
     }
     #bandcamp-container {
         padding: 5px;
-        height: 60px;
     }
 
 }
