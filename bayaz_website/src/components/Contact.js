@@ -21,7 +21,11 @@ const Contact = () => {
                 Or check out our <a className="boxTextShadow" target='_blank'href='./assets/BayazPressKitV1.pdf'>press kit</a>
               </p>
             </div>
-            <h3 style={{marginBottom: "2vh"}} id='merch'><a className="boxTextShadow "  href='https://thenuclears.bandcamp.com/merch'>Buy a record! Buy a shirt! Buy both- Christmas is right around the corner!</a></h3>  
+            <h3 style={{marginBottom: "2vh"}} id='merch'>
+              <a className="boxTextShadow "  href='https://thenuclears.bandcamp.com/merch'>
+                Buy a record! Buy a shirt! Buy both- Christmas is right around the corner!
+              </a>
+            </h3>  
           </div>
             <Form id='contactForm'>
               <Form.Text>

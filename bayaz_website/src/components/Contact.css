@@ -16,6 +16,10 @@
     margin-bottom: 2vh;
     width: 40%;
     padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .formParent {
@@ -42,7 +46,9 @@
 #bandcamp-container {
     padding: 10%;
     margin: 5% 2% 5% 2%;   
+    
 }
+
 
 .socialIconContainer {
     padding: 5vh;
