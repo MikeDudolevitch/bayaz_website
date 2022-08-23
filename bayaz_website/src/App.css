@@ -11,8 +11,13 @@ h1, h2, h3, a, button {
     /* text-shadow: 2px 2px 2px var(--nav-hover) !important; */
     font-family: "Oswald";
 }
-
-a:hover {
+a:hover  {
+    color: var(--nav-select);
+}
+a.boxTextShadow:link, a.boxTextShadow:visited   {
+    text-shadow: 2px 2px 3px var(--text-shadow);
+}
+a.boxTextShadow:hover  {
     color: var(--nav-select);
 }
 
@@ -43,6 +48,9 @@ a:hover {
     font-family: "Oswald";
     text-shadow: 2px 2px 2px var(--nav-hover);
 }
+/* .boxTextShadow:hover {
+    color: var(--nav-select);
+} */
 @media screen and (min-width: 501px) {
     /*desktop size*/
 

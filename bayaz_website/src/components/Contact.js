@@ -16,7 +16,8 @@ const Contact = () => {
         <div className="contactParent">
           <div className="" id="contact-content">
             <div className="content-container">
-              <p className="boxTextShadow">Hands down, the best way to stay up-to-date with Bayaz releases and happenings is through our Bandcamp Profile -- click the link and give us a follow!
+              <p className="boxTextShadow">
+                Hands down, the best way to stay up-to-date with Bayaz releases and happenings is through our Bandcamp Profile -- click the link and give us a follow!
               </p>
               <div className="content-container" style={{height: 52}}>
                 <iframe id='bc-button' scrolling="no" title="bandcamp" style={{margin: 'auto'}} src="https://bandcamp.com/band_follow_button_classic/2460860197"></iframe>
@@ -24,14 +25,22 @@ const Contact = () => {
               
             </div>
             <div className="content-container">
-            <p className="boxTextShadow">Right this way to our <a className="boxTextShadow" target='_blank'href='./assets/BayazPressKitV1.pdf'>Press Kit.</a></p>
+            <p className="boxTextShadow">Right this way to our <a className="boxTextShadow" target='_blank'href='./assets/BayazPressKitV1.pdf'>Press Kit.
+              </a>
+            </p>
             </div>
-            <h3 style={{marginBottom: "2vh"}} id='merch'><a className="boxTextShadow "  href='https://thenuclears.bandcamp.com/merch'>Buy a record! Buy a shirt! Buy both- Christmas is right around the corner!</a></h3>  
+            <h3 style={{marginBottom: "2vh"}} id='merch' className="boxTextShadow">
+              <a className="boxTextShadow "  href='https://thenuclears.bandcamp.com/merch'>
+                Buy a record! Buy a shirt! Buy both - Christmas is right around the corner!
+              </a>
+            </h3>  
           </div>
             <Form id='contactForm'>
               <Form.Text>
                 <h2 className='content-header boxTextShadow'>Send Us A Line!</h2>
-                <p className='content-header boxTextShadow'>Booking queries, press requests, hate-mail, etc.: This forwards to our band email, so we'll check it and get back to you ASAP!</p>
+                  <p className='content-header boxTextShadow'>
+                    Booking queries, press requests, hate-mail, etc.: This forwards to our band email, so we'll check it and get back to you ASAP!
+                  </p>
               </Form.Text>
               <Form.Group  className="mb-3" controlId="formBasicFirstName">
                 <Form.Label className='boxTextShadow'>First Name</Form.Label>
