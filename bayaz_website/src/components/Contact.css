@@ -41,11 +41,11 @@
     width: 180px;
 }
 
-#merch {
+/* #merch {
     font-family: 'Oswald';
     text-align: center;
     color: var(--nav-color);
-}
+} */
 
 .content-container {
     padding: 1vh; 
