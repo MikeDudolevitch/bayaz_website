@@ -25,8 +25,7 @@ const Contact = () => {
               
             </div>
             <div className="content-container">
-            <p className="boxTextShadow">Right this way to our 
-              <a className="boxTextShadow" target='_blank'href='./assets/BayazPressKitV1.pdf'> Press Kit.
+            <p className="boxTextShadow">Right this way to our <a className="boxTextShadow" target='_blank'href='./assets/BayazPressKitV1.pdf'>Press Kit.
               </a>
             </p>
             </div>
