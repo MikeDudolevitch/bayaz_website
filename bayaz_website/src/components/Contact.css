@@ -16,6 +16,10 @@
     margin-bottom: 2vh;
     width: 40%;
     padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .formParent {
@@ -33,16 +37,22 @@
     width: 40%;
 }
 
+#bc-button {
+    width: 180px;
+}
+
 #merch {
     font-family: 'Oswald';
     text-align: center;
     color: var(--nav-color);
 }
 
-#bandcamp-container {
-    padding: 10%;
-    margin: 5% 2% 5% 2%;   
+.content-container {
+    padding: 1vh; 
+    font-size: 1.5em;
+    text-align: center;
 }
+
 
 .socialIconContainer {
     padding: 5vh;

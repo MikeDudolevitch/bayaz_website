@@ -15,11 +15,16 @@ const Contact = () => {
       <h1 className="section-title">Contact</h1>
         <div className="contactParent">
           <div className="" id="contact-content">
-            <div id="bandcamp-container">
-              <p className="boxTextShadow">If there's one place to follow us, its here:
-                <iframe scrolling="no" title="bandcamp" style={{display: "inline", border: 0, width: "100%", height: 33}} src="https://bandcamp.com/band_follow_button_classic/2460860197"></iframe>
-                Or check out our <a className="boxTextShadow" target='_blank'href='./assets/BayazPressKitV1.pdf'>press kit</a>
+            <div className="content-container">
+              <p className="boxTextShadow">Hands down, the best way to stay up-to-date with Bayaz releases and happenings is through our Bandcamp Profile -- click the link and give us a follow!
               </p>
+              <div className="content-container" style={{height: 52}}>
+                <iframe id='bc-button' scrolling="no" title="bandcamp" style={{margin: 'auto'}} src="https://bandcamp.com/band_follow_button_classic/2460860197"></iframe>
+                </div>
+              
+            </div>
+            <div className="content-container">
+            <p className="boxTextShadow">Right this way to our <a className="boxTextShadow" target='_blank'href='./assets/BayazPressKitV1.pdf'>Press Kit.</a></p>
             </div>
             <h3 style={{marginBottom: "2vh"}} id='merch'><a className="boxTextShadow "  href='https://thenuclears.bandcamp.com/merch'>Buy a record! Buy a shirt! Buy both- Christmas is right around the corner!</a></h3>  
           </div>
