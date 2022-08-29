@@ -1,4 +1,7 @@
 # bayaz_website
+
+[Bayaz Website link](https://bayazband.com/)
+
 Band website for Bayaz
 Built by the Best Boys for the Best Boys
 
