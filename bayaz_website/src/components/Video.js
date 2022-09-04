@@ -14,7 +14,7 @@ const Video = () => {
 
   return (
     <div id='video' className='page-wrapper component'>
-      <h1 className="section-title">Video</h1>
+      {/* <h1 className="section-title">Video</h1> */}
       <Container fluid>
         <Row >
           <Col className="videoContainer">    

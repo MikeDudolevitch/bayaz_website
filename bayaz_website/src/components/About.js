@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id="about" className='page-wrapper component'>
       <div className="">
-        <h1 className="section-title">About</h1>
+        {/* <h1 className="section-title">About</h1> */}
           <div id='about-paragraph'>
 
             <h2 id="about-title" className='boxTextShadow content-header'>Bayaz: The Story of Bayaz</h2>

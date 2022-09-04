@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div id="contact" className='page-wrapper component'>
       <div className=''>
-      <h1 className="section-title">Contact</h1>
+      {/* <h1 className="section-title">Contact</h1> */}
         <div className="contactParent">
           <div className="" id="contact-content">
             <div className="content-container">

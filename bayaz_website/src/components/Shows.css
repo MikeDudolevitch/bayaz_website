@@ -1,13 +1,18 @@
 #shows {
     min-height: 100vh;
     background-image: url('../../public/pics/bayazpictveye.jpg');
-    background-position: center;
+    background-position: 0px center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 #widget-container{
-    margin: 5vw 5vw 0 5vw;
-    border: thin solid var(--nav-color);
+    margin: 50px 70px 0px;
+    width: 100%;
+    /* border: thin solid var(--nav-color); */
     background-color: var(--background-grey);
-    opacity: .9;
-    border-radius: 10px;
+    opacity: .85;
+    /* border-radius: 10px; */
 }

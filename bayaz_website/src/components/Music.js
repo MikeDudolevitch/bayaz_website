@@ -6,7 +6,7 @@ import './Music.css'
 const Music = () => {
   return (
     <div id='music' className="page-wrapper component">
-      <h1 className="section-title">Music</h1>
+      {/* <h1 className="section-title">Music</h1> */}
       <div className="iframeContainer">
             {/* Music widgets */}
             <iframe title="seasides" className="iframeSong"  src="https://bandcamp.com/EmbeddedPlayer/album=1203236600/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/transparent=true/" seamless><a href="https://thenuclears.bandcamp.com/album/seasides">Seasides by The Nuclears</a></iframe>

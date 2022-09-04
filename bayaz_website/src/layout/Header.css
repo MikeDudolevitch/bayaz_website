@@ -1,23 +1,26 @@
 header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   position: fixed;
   padding: 0;
   margin: 0;
   width: 100vw;
   user-select: none;
-  height: 80px;
+  height: 60px;
   color: var(--nav-color);
   text-shadow: 2px 2px 4px #C96D03;
   z-index: 1;
   top: 0;
   left: 0;
   flex-wrap: nowrap;
+  background-color: black;
 }
+
 .leftSpacer {
   width: 45vw;
 }
+
 .logoNav {
   display: flex;
   align-items: center;
@@ -26,28 +29,43 @@ header {
   padding-left: 15px;
   max-height: 80px;
 }
+
 .logo {
-  padding: 0 20px;
-  margin-top: 60px;
-  width: 250px;
   cursor: pointer;
+  position: absolute;
+  width: 140px;
+  top: 0;
+  left: 0;
+  transform: translate(45px, -36px) scale(0.75);
 }
+
+.logo.top {
+  padding: 0 20px;
+  transform: translate(170px, 80px) scale(4);
+}
+
 .navParent {
   display: flex;
   justify-content: flex-end;
   width: 45vw;
-  height: 100%;
+  /* height: 100%; */
   position: relative;
   right: 0;
   top: 0;
-  padding: 15px 35px;
+  padding: 15px 60px;
   z-index: 4;
 }
+
 nav {
   width: 450px;
   transition: transform 0.3s linear;
   cursor: pointer;
   margin-right: 10px;
+}
+
+.nav-link-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navLink {

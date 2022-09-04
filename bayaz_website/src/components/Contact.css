@@ -9,10 +9,10 @@
 }
 
 #contact-content {
-    border: thin solid var(--nav-color);
+    /* border: thin solid var(--nav-color); */
     background-color: var(--background-grey);
     opacity: .9;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-bottom: 2vh;
     width: 40%;
     padding: 10px;
@@ -27,11 +27,11 @@
 }
 
 #contactForm {
-    border: thin solid var(--nav-color);
+    /* border: thin solid var(--nav-color); */
     font-family: "Oswald";
     background-color: var(--background-grey);
     opacity: .9;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-bottom: 2vh;
     padding: 10px;
     width: 40%;

@@ -4,11 +4,11 @@
 }
 #about-paragraph {
     margin: 2vh 4vw 2vh 4vw;
-    border: thin solid var(--nav-color);
+    /* border: thin solid var(--nav-color); */
     padding: 1vh 2vw 1vh 2vw;
     background-color: var(--background-grey);
     opacity: .9;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     min-height: 300px
 }
 #about-title {
