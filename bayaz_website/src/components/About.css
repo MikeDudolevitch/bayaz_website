@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+
 #about {
     min-height: 100vh;
     /* border: thin solid red; */
@@ -9,13 +11,15 @@
     background-color: var(--background-grey);
     opacity: .9;
     /* border-radius: 10px; */
-    min-height: 300px
+    min-height: 300px;
 }
 #about-title {
     margin-bottom: 20px;
+    font-size: 3em;
 }
 #about-narration {
-    font-family: "Dancing Script";
+    /* font-family: "Dancing Script"; */
+    font-family: "Charm";
     font-size: 1.4em;
 }
 #about-img {
@@ -23,4 +27,58 @@
     padding: 3px;
     width: 25vw;
     margin: 0 0 0 15px;
+}
+
+
+#about-paragraph p.boxTextShadow {
+    text-shadow: 0px 0px 1px var(--nav-hover);
+}
+
+strong {
+    font-size: 1.1em;
+}
+
+.main-content {
+    column-width: 200px;
+    column-gap: 30px;
+}
+
+.intro-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.full-screen {
+    display: flex;
+}
+
+.small-screen {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.small-screen #about-img {
+    float: none;
+    width: 80vw;
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .full-screen {
+        display: none;
+    }
+
+    .small-screen {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    p {
+        font-size: 1.1em;
+        text-shadow: 1 1 2px var(--text-shadow);
+    }
 }

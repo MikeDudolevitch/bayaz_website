@@ -1,10 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-scroll";
 import "./Header.css";
 
 function Header() {
   const [showMenu, setShowMenu] = useState("");
   const [transition, setTransition] = useState("");
+
+  const titleImage = useRef();
+
+  window.addEventListener("scroll", (evt) => {
+    if(window){
+      if(window.scrollY > 0){
+        titleImage.current.classList.remove("top");
+      }
+      else{
+        titleImage.current.classList.add("top");
+      }
+    }
+  });
 
   const menuClick = (e) => {
     if (showMenu === "visible") {
@@ -52,7 +65,7 @@ function Header() {
             removeTransition();
           }}
         >
-          <img src="./pics/BAYAZtextonlycream.png" alt="bayaz logo" className="logo"/>
+          <img ref={titleImage} src="./pics/BAYAZtextonlycream.png" alt="bayaz logo" className="logo top"/>
         </Link>
       {/* <div className="logoNav"> */}
         <div className="navParent">
