@@ -8,7 +8,7 @@ import './Component.css'
 const Gallery = () => {
   return (
     <div id="gallery" className='page-wrapper component'>
-      <h1 className="section-title">Gallery</h1>
+      {/* <h1 className="section-title">Gallery</h1> */}
         <div id="gallery-container">
           <Carousel/>
         </div>

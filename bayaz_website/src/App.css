@@ -5,6 +5,12 @@ html, body {
     font-family: "Oswald";
 }
 
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1, h2, h3, a, button {
     color: var(--nav-color);
     text-shadow: 2px 2px 3px var(--nav-hover);

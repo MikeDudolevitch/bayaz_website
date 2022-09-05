@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="App">
       <Layout>
-          <Music />
-          <Gallery />
-          <Video />
           <Shows />
+          <Music />
+          <Video />
+          <Gallery />
           <About />
           <Contact />
           <Footer />
