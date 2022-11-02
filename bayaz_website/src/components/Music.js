@@ -11,7 +11,7 @@ const Music = () => {
       <h1 className="section-title">Music</h1>
       <div className="iframeContainer">
             {/* Music widgets */}
-            <iframe title="Found Money" className="iframeSong" width='360' height='840' src="https://orcd.co/rzq43pe" seamless></iframe>
+            <iframe title="Found Money" className="iframeSong" width='360' height='840' scrolling="no" src="https://orcd.co/rzq43pe" seamless></iframe>
             {/* Music widgets */}
             {/* <iframe title="nothin to do" className="iframeSong" src="https://bandcamp.com/EmbeddedPlayer/track=3156155333/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/transparent=true/" seamless><a href="https://thenuclears.bandcamp.com/track/i-just-wanna-have-nothin-to-do">I Just Wanna Have Nothin&#39; To Do by The Nuclears</a></iframe> */}
             {/* Music widgets */}
