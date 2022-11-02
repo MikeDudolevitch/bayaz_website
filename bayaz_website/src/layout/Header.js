@@ -42,7 +42,7 @@ function Header() {
     <header>
       <div className="leftSpacer"> </div>
         <Link
-          to="music"
+          to="shows"
           activeClass="activeLogo"
           spy={true}
           smooth={false}
@@ -63,6 +63,17 @@ function Header() {
             </div>
 {/* Music / Gallery / Videos / Shows / Merch / Contact / Press Kit */}
           <nav className={`${showMenu} ${transition}`}>
+            <Link
+              to="shows"
+              className="navLink"
+              activeClass="active"
+              spy={true}
+              smooth={false}
+              duration={500}
+              onClick={menuClick}
+            >
+              Shows
+            </Link>
             <Link
               to="music"
               className="navLink"
@@ -95,17 +106,6 @@ function Header() {
               onClick={menuClick}
             >
               Videos
-            </Link>
-            <Link
-              to="shows"
-              className="navLink"
-              activeClass="active"
-              spy={true}
-              smooth={false}
-              duration={500}
-              onClick={menuClick}
-            >
-              Shows
             </Link>
             <Link
               to="about"
