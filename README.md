@@ -2,7 +2,7 @@
 
 [Bayaz Website link](https://bayazband.com/)
 
-Band website for Bayaz
+Band website for Bayaz Band
 Built by the Best Boys for the Best Boys
 
 
