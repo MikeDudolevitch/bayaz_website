@@ -1,5 +1,5 @@
 // Youtube Tiles, opens Modal like Danny's portfolio project
-import React, { useState } from 'react'
+import React from 'react'
 import './Component.css'
 import './Video.css'
 // import Modal from "./Modal";
