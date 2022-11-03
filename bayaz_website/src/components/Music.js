@@ -1,5 +1,5 @@
 //Use Bandcamp.com Widget 
-import React, { useState } from 'react'
+import React from 'react'
 import './Component.css'
 import './Music.css'
 
