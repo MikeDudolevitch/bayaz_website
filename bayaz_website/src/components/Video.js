@@ -1,21 +1,25 @@
 // Youtube Tiles, opens Modal like Danny's portfolio project
-import React, { useState } from 'react'
+import React from 'react'
 import './Component.css'
 import './Video.css'
-import Modal from "./Modal";
-import {Container, Row, Col} from 'react-bootstrap';
+// import Modal from "./Modal";
+// import {Container, Row, Col} from 'react-bootstrap';
 
 const Video = () => {
     // set each modal to "visible" if they are to open
-    const [modalVis1, setModalVis1] = useState("");
-    const [modalVis2, setModalVis2] = useState("");
-    const [modalVis3, setModalVis3] = useState("");
-    const [modalVis4, setModalVis4] = useState("");
+    // const [modalVis1, setModalVis1] = useState("");
+    // const [modalVis2, setModalVis2] = useState("");
+    // const [modalVis3, setModalVis3] = useState("");
+    // const [modalVis4, setModalVis4] = useState("");
 
   return (
     <div id='video' className='page-wrapper component'>
       <h1 className="section-title">Video</h1>
-      <Container fluid>
+      <div className="outerPlaceHolder">
+        <h2>Coming Soon!</h2>
+      </div>
+      
+      {/* <Container fluid>
         <Row >
           <Col className="videoContainer">    
             <h3>Zegema Beach</h3>
@@ -84,7 +88,7 @@ const Video = () => {
         setModalVis={setModalVis4}
         URL='https://www.youtube.com/embed/mOoTwRQzB80?enablejsapi=1&version=3&playerapiid=ytplayer'
         title="Back to my Girl"
-      />
+      /> */}
       {/* to add another video you have to add another clickable image,
       referencing the new modal and new state variable, 
       continuing the naming convention by increase the last number of each */}
