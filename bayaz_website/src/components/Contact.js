@@ -30,9 +30,9 @@ const Contact = () => {
             </p>
             </div>
             <h3 style={{marginBottom: "2vh"}} id='merch' className="boxTextShadow">
-              <a className="boxTextShadow "  href='https://thenuclears.bandcamp.com/merch'>
+              {/* <a className="boxTextShadow "  href='https://thenuclears.bandcamp.com/merch'>
                 Buy a record! Buy a shirt! Buy both - Christmas is right around the corner!
-              </a>
+              </a> */}
             </h3>  
           </div>
             <Form id='contactForm'>
@@ -79,3 +79,4 @@ const Contact = () => {
 
 export default Contact
 
+               

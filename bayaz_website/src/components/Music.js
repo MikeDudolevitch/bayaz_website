@@ -9,6 +9,8 @@ const Music = () => {
   return (
     <div id='music' className="page-wrapper component">
       <h1 className="section-title">Music</h1>
+      <h2 style={{textAlign: 'center', paddingBottom: '10px', lineHeight: 1.6}}>Listen to our new single 'Found Money' on the streaming service our your choice! <br></br>
+      Courtesy of <a className="boxTextShadow" href='fakechapter.com'>Fake Chapter Records</a></h2>
       <div className="iframeContainer">
             {/* Music widgets */}
             <iframe title="Found Money" className="iframeSong" width='360' height='840' scrolling="no" src="https://orcd.co/rzq43pe" seamless></iframe>
