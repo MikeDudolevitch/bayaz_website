@@ -63,7 +63,6 @@ function Header() {
             </div>
 {/* Music / Gallery / Videos / Shows / Merch / Contact / Press Kit */}
           <nav className={`${showMenu} ${transition}`}>
-
             <Link
               to="music"
               className="navLink"
