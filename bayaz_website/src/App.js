@@ -14,11 +14,11 @@ function App() {
   return (
     <div className="App">
       <Layout>
-          <Shows />
           <Music />
+          <Shows />
           <Gallery />
-          <Video />
           <About />
+          <Video />
           <Contact />
           <Footer />
       </Layout>
@@ -27,3 +27,4 @@ function App() {
 }
 
 export default App;
+          
