@@ -16,7 +16,7 @@ const ControlledCarousel = () => {
                 <img
                 className="d-block w-100"
                 src="./pics/GeoffTVEye.jpg"
-                alt="A drummer looking intense playing live"
+                alt="A drummer looking intense playing live."
                 />
                 <div class="carousel-caption d-md-block">
                     <p className='caption'>Photo by Jeanette D. Moses.</p>
@@ -36,10 +36,30 @@ const ControlledCarousel = () => {
                 <img
                 className="d-block w-100"
                 src="./pics/BovinaMountainsPressShot_MicheleHug.jpeg"
-                alt="BayazRed"
+                alt="Bayaz band members by a lake in the Catskills, NY."
                 />
                 <div class="carousel-caption d-none d-md-block">
                     <p className='caption'>Photo by Michele Hug.</p>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src="./pics/bayaz16_joebottari.jpg"
+                alt="Bayaz guitarists Mike and Morgan back to back onstage"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <p className='caption'>Photo by Joe Bottari.</p>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src="./pics/bayazspace.jpg"
+                alt="Bayaz as aliens"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <p className='caption'>Photo by Bayaz.</p>
                 </div>
             </Carousel.Item>
             <Carousel.Item>
@@ -56,7 +76,7 @@ const ControlledCarousel = () => {
                 <img
                 className="d-block w-100"
                 src="./pics/MorgMikeTVEye.jpg"
-                alt="A drummer looking intense playing live"
+                alt="Two guitarists playing live."
                 />
                 <div class="carousel-caption d-md-block">
                     <p className='caption'>Photo by Jeanette D. Moses.</p>
@@ -75,6 +95,16 @@ const ControlledCarousel = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
+                src="./pics/BAYAZYELLOW.jpg"
+                alt="BayazYellow"
+                />
+                <div class="carousel-caption d-md-block">
+                    <p className='caption'>Photo by Michele Hug. Graphic by Stephen Voland.</p>
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
                 src="./pics/MandGTVEye.jpg"
                 alt="A guitarist and bassist performing onstage."
                 />
@@ -85,11 +115,11 @@ const ControlledCarousel = () => {
             <Carousel.Item>
                 <img
                 className="d-block w-100"
-                src="./pics/BAYAZYELLOW.jpg"
-                alt="BayazYellow"
+                src="./pics/bayaz18_joebottari.jpg"
+                alt="A guitarist pick scrapes."
                 />
                 <div class="carousel-caption d-md-block">
-                    <p className='caption'>Photo by Michele Hug. Graphic by Stephen Voland.</p>
+                    <p className='caption'>Photo by Joe Bottari.</p>
                 </div>
             </Carousel.Item>
             <Carousel.Item>
