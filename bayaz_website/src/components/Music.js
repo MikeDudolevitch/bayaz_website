@@ -9,7 +9,7 @@ const Music = () => {
   return (
     <div id='music' className="page-wrapper component">
       <h1 className="section-title">Music</h1>
-      <h3 style={{textAlign: 'center', paddingBottom: '10px', lineHeight: 1.6}}>Listen to our new single 'Found Money' on the streaming service our your choice! <br></br>
+      <h3 style={{textAlign: 'center', paddingBottom: '10px', lineHeight: 1.6, marginLeft: '15vw', marginRight: '15vw'}}>Listen to our new single 'Found Money' on the streaming service our your choice! <br></br>
       Courtesy of <a className="boxTextShadow" href='fakechapter.com'>Fake Chapter Records</a></h3>
       <div className="iframeContainer">
             {/* Music widgets */}
