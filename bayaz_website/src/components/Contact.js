@@ -39,7 +39,7 @@ const Contact = () => {
               <Form.Text>
                 <h2 className='content-header boxTextShadow'>Send Us A Line!</h2>
                   <p className='content-header boxTextShadow'>
-                    Booking queries, press requests, hate-mail, etc.: This forwards to our band email, so we'll check it and get back to you ASAP!
+                    Booking queries, press requests, requests to cover songs, hate-mail, etc.: This forwards to our band email, so we'll check it and get back to you ASAP!
                   </p>
               </Form.Text>
               <Form.Group  className="mb-3" controlId="formBasicFirstName">
