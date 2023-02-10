@@ -1,0 +1,32 @@
+.iframeContainer {
+    /* align-self: flex-start; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: thin solid red; */
+    flex-wrap: wrap;
+}
+.iframeSong {
+    margin: 1vw; 
+    border-radius: 10px;
+    border: thin solid var(--nav-color);
+    overflow: hidden;
+    /* width: 360px; 
+    height: 840px; */
+}
+#new-music {
+    margin: 2vh 10vw 2vh 10vw;
+    border: solid var(--nav-select);
+    padding: 1vh 2vw 1vh 2vw;
+    background-image: url('../../public/pics/carousel-pics/bayaz_cover_for_label.jpg');
+    background-position: top;
+    background-size: cover;
+    opacity: .9;
+    border-radius: 10px;
+    min-height: 50px
+}
+
+@media screen and (min-width: 501px) {
+    /*desktop size*/
+
+}

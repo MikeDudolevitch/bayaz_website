@@ -1,0 +1,14 @@
+#shows {
+    min-height: 100vh;
+    background-image: url('../../public/pics/site-pics/bayazpictveye.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 5vh;
+}
+#widget-container{
+    margin: 5vw 5vw 0 5vw;
+    border: thin solid var(--nav-color);
+    background-color: var(--background-grey);
+    opacity: .9;
+    border-radius: 10px;
+}
