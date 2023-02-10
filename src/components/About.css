@@ -1,0 +1,26 @@
+#about {
+    min-height: 100vh;
+    /* border: thin solid red; */
+}
+#about-paragraph {
+    margin: 2vh 4vw 2vh 4vw;
+    border: thin solid var(--nav-color);
+    padding: 1vh 2vw 1vh 2vw;
+    background-color: var(--background-grey);
+    opacity: .9;
+    border-radius: 10px;
+    min-height: 300px
+}
+#about-title {
+    margin-bottom: 20px;
+}
+#about-narration {
+    font-family: "Dancing Script";
+    font-size: 1.4em;
+}
+#about-img {
+    float: right;
+    padding: 3px;
+    width: 25vw;
+    margin: 0 0 0 15px;
+}

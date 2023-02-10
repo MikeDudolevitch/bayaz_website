@@ -1,0 +1,57 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-image: url('../public/pics/background.png');
+    font-family: "Oswald";
+}
+
+h1, h2, h3, a, button {
+    color: var(--nav-color);
+    text-shadow: 2px 2px 3px var(--nav-hover);
+    /* text-shadow: 2px 2px 2px var(--nav-hover) !important; */
+    font-family: "Oswald";
+}
+a:hover  {
+    color: var(--nav-select);
+}
+a.boxTextShadow:link, a.boxTextShadow:visited   {
+    text-shadow: 2px 2px 3px var(--text-shadow);
+}
+a.boxTextShadow:hover  {
+    color: var(--nav-select);
+}
+
+:root {
+    --nav-color: #FCF3CB;
+    --nav-select: #E0514C;
+    --nav-hover: red;
+    --text-shadow: #C96D03;
+    --background-grey: #373737;
+}
+
+.page-wrapper {
+    /* padding: 5px; */
+    border: 5px 5px red;
+}
+
+.page-content, p {
+    color: var(--nav-color);
+    text-shadow: 2px 2px 2px var(--text-shadow);
+    font-family: "Oswald";
+}
+
+.content-header {
+    text-align: center;
+}
+.boxTextShadow {
+    color: var(--nav-color);
+    font-family: "Oswald";
+    text-shadow: 2px 2px 2px var(--nav-hover);
+}
+/* .boxTextShadow:hover {
+    color: var(--nav-select);
+} */
+@media screen and (min-width: 501px) {
+    /*desktop size*/
+
+}
